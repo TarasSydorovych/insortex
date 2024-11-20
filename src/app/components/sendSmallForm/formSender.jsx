@@ -5,7 +5,7 @@ const FormSender = () => {
     <div className={css.formSenderWrap}>
       <form className={css.form}>
         <div className={css.formGroup}>
-          <label htmlFor="name">Ім'я</label>
+          <label htmlFor="name">Ім&lsquo;я</label>
           <input type="text" id="name" name="name" required />
         </div>
         <div className={css.formGroup}>

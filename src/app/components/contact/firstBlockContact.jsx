@@ -1,5 +1,5 @@
 import css from "./contact.module.css";
-import LocalInform from "./LocalInform";
+import LocalInform from "./localInform";
 import Map from "./map";
 import directorInsortex from "../../img/directorInsortex.jpg";
 import Image from "next/image";
