@@ -4,6 +4,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  background: white;
 }
 
 .wrapCategoryAdm {
@@ -71,30 +72,34 @@
 }
 
 .productQuill {
-  background-color: #ffffff;
-  border: 1px solid #ddd;
   border-radius: 5px;
-  min-height: 200px;
+
   font-family: "Futura PT", sans-serif;
-  height: 300px; /* Фіксована висота */
   display: flex;
   flex-direction: column;
+  height: 300px; /* Фіксована висота для ReactQuill */
+  margin-bottom: 100px;
 }
 
-.productQuill .ql-editor {
-  height: 100%; /* Заповнює всю доступну висоту контейнера */
-  overflow-y: auto; /* Додає вертикальну прокрутку */
+/* .productQuill .ql-editor {
+  height: 100%; 
+  overflow-y: auto; 
+  word-wrap: break-word;
+  box-sizing: border-box;
 }
 
 .productQuill .ql-toolbar {
   border-bottom: 1px solid #ddd;
+  flex-shrink: 0;
 }
 
 .productQuill .ql-container {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   overflow-y: auto;
 }
-
+*/
 .imagesList {
   list-style: none;
   padding: 0;
