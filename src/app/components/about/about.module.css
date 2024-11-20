@@ -1,0 +1,664 @@
+.wrapAbout {
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  height: auto;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.aboutInsortex {
+  font-family: "Futura PT";
+  font-weight: bolder;
+  font-size: 60px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #042037;
+}
+.insortexLd {
+  font-size: 110px;
+  color: #f8b123;
+}
+.descriptionsAboutD {
+  width: 700px;
+  font-family: "Futura PT";
+  color: #042037;
+  font-size: 30px;
+}
+.inovationsLo {
+  color: #f8b123;
+  font-size: 40px;
+}
+.secondBlockAbout {
+  width: 100%;
+  height: 765px;
+  background: url("../../img/forAboutBlock.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.secondBlockTitle {
+  color: white;
+  font-size: 30px;
+  font-family: "Futura PT";
+}
+.wrapBlockFor {
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.realBig {
+  font-weight: bolder;
+  font-size: 110px;
+  font-family: "Futura PT";
+  color: white;
+}
+.realBigSmaller {
+  font-weight: bolder;
+  font-size: 70px;
+  font-family: "Futura PT";
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.buttonForPopUp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8b123;
+  width: 330px;
+  height: 60px;
+  font-family: "Futura PT";
+  color: white;
+  font-size: 25px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.wrapOurQw {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+}
+
+.pUorCustomers {
+  font-family: "Futura PT";
+  margin: 0;
+  color: #042037;
+  font-weight: bold;
+  font-size: 50px;
+}
+.wrapListAllWorks {
+  width: 100%;
+  height: auto;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pInAurPoslug {
+  font-family: "Futura PT";
+  margin: 0;
+  color: #f8b123;
+  font-weight: bold;
+  font-size: 50px;
+}
+.listOfPoslug {
+  width: 1300px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.oneBlockInAdv {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 400px;
+  height: 350px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+.namePererob {
+  font-family: "Futura PT";
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.descPererob {
+  font-family: "Futura PT";
+  font-size: 20px;
+  text-align: center;
+}
+.wrapDiplomsAll {
+  width: 100%;
+  height: auto;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapBigDiploms {
+  width: 1300px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.oneDipWithText {
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bigServt {
+  width: 100%;
+  height: auto;
+}
+.descriptionsDeploms {
+  text-align: center;
+  font-family: "Futura PT";
+  margin-top: 20px;
+  font-size: 20px;
+}
+.wrapAllCertAndDip {
+  width: 1300px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 70px;
+  overflow-x: auto;
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+.wrapAllCertAndDip::-webkit-scrollbar {
+  height: 10px;
+}
+
+.wrapAllCertAndDip::-webkit-scrollbar-thumb {
+  background-color: #f8b123;
+  border-radius: 10px;
+}
+
+.wrapAllCertAndDip::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.smalSertiTy {
+  height: 400px;
+  width: auto;
+}
+/* Lightbox container */
+.lightboxContainer {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.lightboxImage {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  max-height: 80%;
+  margin-top: 10%;
+}
+
+.closeLightbox {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.prevLightbox,
+.nextLightbox {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prevLightbox {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.nextLightbox {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+@media only screen and (max-width: 479px) and (min-width: 300px) {
+  .wrapAbout {
+    width: calc(100%);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    height: auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .aboutInsortex {
+    font-family: "Futura PT";
+    font-weight: bolder;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #042037;
+  }
+  .insortexLd {
+    font-size: 60px;
+    color: #f8b123;
+  }
+  .descriptionsAboutD {
+    width: 95%;
+    font-family: "Futura PT";
+    color: #042037;
+    font-size: 25px;
+  }
+  .inovationsLo {
+    color: #f8b123;
+    font-size: 30px;
+  }
+  .wrapBlockFor {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .realBig {
+    font-size: 30px;
+  }
+  .realBigSmaller {
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: "Futura PT";
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .secondBlockTitle {
+    color: white;
+    font-size: 20px;
+    font-family: "Futura PT";
+  }
+  .buttonForPopUp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8b123;
+    width: 300px;
+    height: 60px;
+    font-family: "Futura PT";
+    color: white;
+    font-size: 22px;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  .pUorCustomers {
+    font-size: 30px;
+  }
+  .wrapListAllWorks {
+    padding-top: 50px;
+  }
+  .pInAurPoslug {
+    font-size: 30px;
+  }
+  .listOfPoslug {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .oneBlockInAdv {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    height: auto;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  .wrapDiplomsAll {
+    padding-top: 50px;
+  }
+  .pInAurPoslug {
+    font-size: 30px;
+  }
+  .wrapBigDiploms {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .oneDipWithText {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .descriptionsDeploms {
+    font-size: 15px;
+    width: 95%;
+  }
+  .wrapAllCertAndDip {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 70px;
+    overflow-x: auto;
+    margin-top: 50px;
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 700px) and (min-width: 479px) {
+  .wrapAbout {
+    width: calc(100%);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    height: auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .aboutInsortex {
+    font-family: "Futura PT";
+    font-weight: bolder;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #042037;
+  }
+  .insortexLd {
+    font-size: 60px;
+    color: #f8b123;
+  }
+  .descriptionsAboutD {
+    width: 95%;
+    font-family: "Futura PT";
+    color: #042037;
+    font-size: 25px;
+  }
+  .inovationsLo {
+    color: #f8b123;
+    font-size: 30px;
+  }
+  .wrapBlockFor {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .realBig {
+    font-size: 30px;
+  }
+  .realBigSmaller {
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: "Futura PT";
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .secondBlockTitle {
+    color: white;
+    font-size: 20px;
+    font-family: "Futura PT";
+  }
+  .listOfPoslug {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .wrapDiplomsAll {
+    padding-top: 50px;
+  }
+  .wrapBigDiploms {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .oneDipWithText {
+    width: 479px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .descriptionsDeploms {
+    font-size: 15px;
+    width: 479px;
+  }
+  .wrapAllCertAndDip {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 70px;
+    overflow-x: auto;
+    margin-top: 50px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 960px) and (min-width: 700px) {
+  .wrapAbout {
+    width: calc(100%);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    height: auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .wrapBlockFor {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .realBig {
+    font-size: 60px;
+  }
+  .realBigSmaller {
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: "Futura PT";
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .secondBlockTitle {
+    color: white;
+    font-size: 30px;
+    font-family: "Futura PT";
+  }
+  .listOfPoslug {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .wrapBigDiploms {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .wrapAllCertAndDip {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 70px;
+    overflow-x: auto;
+    margin-top: 50px;
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 960px) {
+  .wrapBlockFor {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .realBig {
+    font-size: 80px;
+  }
+  .realBigSmaller {
+    font-weight: bolder;
+    font-size: 70px;
+    font-family: "Futura PT";
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .secondBlockTitle {
+    color: white;
+    font-size: 30px;
+    font-family: "Futura PT";
+  }
+  .listOfPoslug {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .wrapBigDiploms {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .wrapAllCertAndDip {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 70px;
+    overflow-x: auto;
+    margin-top: 50px;
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+  .listOfPoslug {
+    width: 95%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .wrapBlockFor {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .realBig {
+    font-size: 100px;
+  }
+  .wrapBigDiploms {
+    width: 1200px;
+    height: auto;
+    display: flex;
+
+    margin-top: 50px;
+  }
+  .wrapAllCertAndDip {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 70px;
+    overflow-x: auto;
+    margin-top: 50px;
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1400px) {
+}

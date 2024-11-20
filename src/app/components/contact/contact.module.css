@@ -1,0 +1,243 @@
+.wrapContact {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+}
+.wrapMapWith {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pContackMail {
+  font-family: "Futura PT";
+  color: #042037;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.wrapMainContact {
+  width: 50%;
+  height: auto;
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+}
+.localInformWrap {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 100px;
+}
+.wrapInformationsI {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.pAdress {
+  font-family: "Futura PT";
+  font-size: 30px;
+  color: #27214f;
+}
+.aHome {
+  flex-shrink: 0;
+  font-size: 40px;
+  color: #27214f;
+  margin-right: 20px;
+}
+.greyDesc {
+  font-family: "Futura PT";
+  font-size: 20px;
+  color: #7a7a7a;
+  margin-top: 10px;
+}
+.usersContact {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.wrapOneUser {
+  width: 340px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px; /* Відступи всередині рамки */
+
+  border-radius: 15px; /* Закруглені кути */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Тінь */
+  background-color: #f9f9f9; /* Фоновий колір */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.wrapOneUser:hover {
+  transform: translateY(-5px); /* Піднімає блок при наведенні */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15); /* Більша тінь при наведенні */
+}
+.imageUsers {
+  width: 300px;
+  height: auto;
+}
+
+.namePosada {
+  font-family: "Futura PT";
+  color: #042037;
+  margin-top: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+.namePosadaNew {
+  font-family: "Futura PT";
+  color: #042037;
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+  text-align: center;
+}
+.nameName {
+  font-family: "Futura PT";
+  color: #042037;
+  margin-top: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+.nameNameNew {
+  font-family: "Futura PT";
+  color: #042037;
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+.phoneD {
+  font-family: "Futura PT";
+  color: #042037;
+  margin-top: 10px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.phoneDNew {
+  font-family: "Futura PT";
+  color: #042037;
+  margin-top: 10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.mdLocalPhone {
+  margin-right: 10px;
+}
+.mdLocalPhoneNew {
+  margin-right: 10px;
+}
+.wrapAllContact {
+  width: 1200px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 150px;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+.wrapOneUserNotNew {
+  width: 240px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px; /* Відступи всередині рамки */
+
+  border-radius: 15px; /* Закруглені кути */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Тінь */
+  background-color: #f9f9f9; /* Фоновий колір */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.wrapOneUserNotNew:hover {
+  transform: translateY(-5px); /* Піднімає блок при наведенні */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15); /* Більша тінь при наведенні */
+}
+.imageUsersNew {
+  width: 200px;
+  height: auto;
+}
+@media only screen and (max-width: 479px) and (min-width: 300px) {
+  .wrapMapWith {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .localInformWrap {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 700px) and (min-width: 479px) {
+  .wrapMapWith {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .localInformWrap {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 960px) and (min-width: 700px) {
+  .wrapMapWith {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .localInformWrap {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 960px) {
+}
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+}
+@media only screen and (max-width: 1600px) and (min-width: 1400px) {
+}
