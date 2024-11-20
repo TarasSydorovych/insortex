@@ -162,6 +162,7 @@ import "../../../components/font/FuturaPT/stylesheet.css";
 import "../../../components/font/monrope/stylesheet.css";
 import PictureBlock from "@/app/components/blog/pictureBlock";
 import ButtonSendMess from "@/app/components/works/buttonSendMess";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 // Функція для отримання конкретної роботи з API
 async function getWorkById(id) {
@@ -240,6 +241,7 @@ export default async function WorkDetailPage({ params }) {
 
   return (
     <div className={styles.workDetailPage}>
+      <GoogleAnalytics gaId="G-DJMSC241E7" />
       <Header t={t} lng={lng} />
       <div className={styles.wrapFirstBlock}>
         <div className={styles.wrapHadnSmalDesc}>

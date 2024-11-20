@@ -10,7 +10,7 @@ import "../../components/font/monrope/stylesheet.css";
 import OneWorkWrap from "@/app/components/works/oneWorkWrap";
 import css from "styled-jsx/css";
 import OneProductWrap from "@/app/components/blog/oneProductWrap";
-
+import { GoogleAnalytics } from "@next/third-parties/google";
 // Функція для отримання робіт з API
 async function getWorks() {
   const res = await fetch("http://localhost:3000/api/blogs", {
@@ -31,6 +31,7 @@ export default async function WorksPage({ params: { lng } }) {
 
   return (
     <div className={styles.wrapAllWorks}>
+      <GoogleAnalytics gaId="G-DJMSC241E7" />
       <Header t={t} lng={lng} />
 
       <div className={styles.worksContainer}>

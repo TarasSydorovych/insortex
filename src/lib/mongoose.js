@@ -8,3 +8,18 @@ export function mongooseConnect() {
     return mongoose.connect(uri);
   }
 }
+// import mongoose from "mongoose";
+
+// export function mongooseConnect() {
+//   if (mongoose.connection.readyState === 1) {
+//     return mongoose.connection.asPromise();
+//   } else {
+//     // Формування URI з логіна, пароля та хоста з .env.local
+//     const uri = `mongodb://${process.env.MONGODB_USER}:${process.env.MONGODB_PASSWORD}@${process.env.MONGODB_HOST}:${process.env.MONGODB_PORT}/${process.env.MONGODB_DB}`;
+
+//     return mongoose.connect(uri, {
+//       useNewUrlParser: true, // Рекомендується для уникнення помилок парсера
+//       useUnifiedTopology: true, // Використання нового двигуна для підключення
+//     });
+//   }
+// }

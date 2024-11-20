@@ -12,6 +12,7 @@ import ListOfWorks from "@/app/components/about/listOfWorks";
 import Footer from "@/app/components/standartComponents/footer";
 import SendSmallForm from "@/app/components/sendSmallForm/sendSmallForm";
 import DipomAndCer from "@/app/components/about/dipomAndCer";
+
 const metadataByLanguage = {
   en: {
     title: "About Us | Insortex - High-Quality Manufacturing Equipment",
@@ -48,7 +49,7 @@ const About = async ({ params: { lng } }) => {
 
   return (
     <main className={styles.main}>
-      {/* <GoogleAnalytics gaId="G-0E582NZFDX" /> */}
+      <GoogleAnalytics gaId="G-DJMSC241E7" />
       <Header t={t} lng={lng} />
       <AboutFirst t={t} lng={lng} />
       <SecondBlockAbout t={t} lng={lng} />

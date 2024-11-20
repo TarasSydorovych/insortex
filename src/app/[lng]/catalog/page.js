@@ -8,6 +8,8 @@ import { AiOutlinePlus } from "react-icons/ai";
 import "../../components/font/FuturaPT/stylesheet.css";
 import "../../components/font/monrope/stylesheet.css";
 import OneProductWrap from "@/app/components/catalog/oneProductWrap";
+import { GoogleAnalytics } from "@next/third-parties/google";
+
 // Функція для отримання категорій з API
 async function getCategories() {
   const res = await fetch("http://localhost:3000/api/category", {
@@ -69,6 +71,7 @@ export default async function CatalogPage({ params: { lng } }) {
 
   return (
     <div className={styles.wrapAllCat}>
+      <GoogleAnalytics gaId="G-DJMSC241E7" />
       <Header t={t} lng={lng} />
       <div className={styles.catalogContainer}>
         <div className={styles.wrapSmallCatalog}>

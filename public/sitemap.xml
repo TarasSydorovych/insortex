@@ -2,9 +2,70 @@
 		<!--	created with www.mysitemapgenerator.com	-->
 		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
- 
 
-    
+  <url>
+          <loc>https://insortex.com/en/contact</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+ <url>
+          <loc>https://insortex.com/ru/contact</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+         <url>
+          <loc>https://insortex.com/ua/contact</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+         <url>
+          <loc>https://insortex.com/pl/contact</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+  <url>
+          <loc>https://insortex.com/ru/about</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+
+  <url>
+          <loc>https://insortex.com/ua/about</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+ 
+  <url>
+          <loc>https://insortex.com/en/about</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+
+  <url>
+          <loc>https://insortex.com/pl/about</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+  <url>
+          <loc>https://insortex.com/ua</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+      <url>
+          <loc>https://insortex.com/ru</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+          <url>
+          <loc>https://insortex.com/en</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+          <url>
+          <loc>https://insortex.com/pl</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
         <url>
           <loc>https://insortex.com/ua/product/inspektsiynyy-konveyer</loc>
           <changefreq>daily</changefreq>
@@ -1124,5 +1185,48 @@
           <loc>https://insortex.com/pl/product/kruszarka-do-malin-gritsovnik</loc>
           <changefreq>daily</changefreq>
           <priority>0.8</priority>
-        </url></urlset>
+        </url>
+           <url>
+          <loc>https://insortex.com/ua/product/smittiesortuval_na-liniya</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+           <url>
+          <loc>https://insortex.com/ru/product/sortyrovochnaya-lynyya-dlya-otkhodov</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+           <url>
+          <loc>https://insortex.com/en/product/waste-sorting-line</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+           <url>
+          <loc>https://insortex.com/pl/product/linia-sortowania-odpadw</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+                <url>
+          <loc>https://insortex.com/ua/product/pokhylyy-konveier-dlya-podachi-produktsiyi-na-zadanu-vysotu</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+             <url>
+          <loc>https://insortex.com/ru/product/naklonnyy-konveyer-dlya-podachy-produktsyy-na-zadannuyu-vysotu</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+             <url>
+          <loc>https://insortex.com/en/product/inclined-conveyor-for-feeding-products-to-a-specified-height</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+             <url>
+          <loc>https://insortex.com/pl/product/pochyy-przenonik-do-podawania-produktw-na-okrelon-wysoko</loc>
+          <changefreq>daily</changefreq>
+          <priority>0.8</priority>
+        </url>
+    
+
+        </urlset>
 

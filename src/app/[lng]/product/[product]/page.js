@@ -13,6 +13,7 @@ import "../../../components/font/monrope/stylesheet.css";
 import CharacteristicsList from "@/app/components/product/characteristicsList";
 import VideoReview from "@/app/components/product/videoReview";
 import SeoText from "@/app/components/product/seoText";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export async function generateMetadata({ params }) {
   const { lng, product } = params;
@@ -93,6 +94,7 @@ const ProductPage = async ({ params }) => {
 
     return (
       <div className={css.productPage}>
+        <GoogleAnalytics gaId="G-DJMSC241E7" />
         <Header t={t} lng={lng} />
         <div className={css.allProdWrap}>
           <div className={css.wrapFirstBlock}>

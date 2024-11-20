@@ -86,16 +86,16 @@ const Footer = ({ t, lng }) => {
             <Link href="/">{t("mainLink")}</Link>
           </li>
           <li className={css.liInFooter}>
-            <Link href="/productions">{t("productions")}</Link>
+            <Link href="/catalog">{t("productions")}</Link>
           </li>
           <li className={css.liInFooter}>
-            <Link href="/our-works">{t("ourWorks")}</Link>
+            <Link href="/works">{t("ourWorks")}</Link>
           </li>
           <li className={css.liInFooter}>
-            <Link href="/news">{t("ourNews")}</Link>
+            <Link href="/blog">{t("ourNews")}</Link>
           </li>
           <li className={css.liInFooter}>
-            <Link href="/about-us">{t("aboutUs")}</Link>
+            <Link href="/about">{t("aboutUs")}</Link>
           </li>
           <li className={css.liInFooter}>
             <Link href="/contact">{t("contackLink")}</Link>

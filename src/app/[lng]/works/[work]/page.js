@@ -143,7 +143,7 @@ import "../../../components/font/monrope/stylesheet.css";
 import PictureBlock from "@/app/components/works/pictureBlock";
 import ButtonSendMess from "@/app/components/works/buttonSendMess";
 import VideoFor from "@/app/components/works/videoFor";
-
+import { GoogleAnalytics } from "@next/third-parties/google";
 // Функція для отримання конкретної роботи з API
 async function getWorkById(id) {
   try {
@@ -221,6 +221,7 @@ export default async function WorkDetailPage({ params }) {
 
   return (
     <div className={styles.workDetailPage}>
+      <GoogleAnalytics gaId="G-DJMSC241E7" />
       <Header t={t} lng={lng} />
       <div className={styles.wrapFirstBlock}>
         {/* Використання компонента клієнтського слайдера */}
