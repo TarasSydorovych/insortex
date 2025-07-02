@@ -1,15 +1,15 @@
 import Link from "next/link";
 import styles from "../../components/blog/works.module.css";
-import { transliterate } from "@/utils/transliterate";
-import Header from "@/app/components/standartComponents/header";
-import Footer from "@/app/components/standartComponents/footer";
+import { transliterate } from "../../../utils/transliterate";
+import Header from "../../components/standartComponents/header";
+import Footer from "../../components/standartComponents/footer";
 import { useTranslation } from "../../i18n";
 import { AiOutlinePlus } from "react-icons/ai";
 import "../../components/font/FuturaPT/stylesheet.css";
 import "../../components/font/monrope/stylesheet.css";
-import OneWorkWrap from "@/app/components/works/oneWorkWrap";
+import OneWorkWrap from "../../components/works/oneWorkWrap";
 import css from "styled-jsx/css";
-import OneProductWrap from "@/app/components/blog/oneProductWrap";
+import OneProductWrap from "../../components/blog/oneProductWrap";
 import { GoogleAnalytics } from "@next/third-parties/google";
 // Функція для отримання робіт з API
 async function getWorks() {

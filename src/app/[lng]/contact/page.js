@@ -1,4 +1,4 @@
-import Header from "@/app/components/standartComponents/header";
+import Header from "../../components/standartComponents/header";
 import styles from "./page.module.css";
 import css from "../../components/about/about.module.css";
 import { useTranslation } from "../../i18n";
@@ -6,13 +6,13 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import AboutFirst from "../../components/about/aboutFirst";
 import "../../components/font/FuturaPT/stylesheet.css";
 import "../../components/font/monrope/stylesheet.css";
-import SecondBlockAbout from "@/app/components/about/secondBlockAbout";
-import OurCustomers from "@/app/components/main/ourCustomers";
-import ListOfWorks from "@/app/components/about/listOfWorks";
-import Footer from "@/app/components/standartComponents/footer";
-import SendSmallForm from "@/app/components/sendSmallForm/sendSmallForm";
-import DipomAndCer from "@/app/components/about/dipomAndCer";
-import FirstBlockContact from "@/app/components/contact/firstBlockContact";
+import SecondBlockAbout from "../../components/about/secondBlockAbout";
+import OurCustomers from "../../components/main/ourCustomers";
+import ListOfWorks from "../../components/about/listOfWorks";
+import Footer from "../../components/standartComponents/footer";
+import SendSmallForm from "../../components/sendSmallForm/sendSmallForm";
+import DipomAndCer from "../../components/about/dipomAndCer";
+import FirstBlockContact from "../../components/contact/firstBlockContact";
 const metadataByLanguage = {
   en: {
     title: "Contact Us | Insortex - Get in Touch for Quality Equipment",

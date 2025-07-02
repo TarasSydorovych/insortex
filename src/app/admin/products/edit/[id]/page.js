@@ -519,8 +519,8 @@ import dynamic from "next/dynamic";
 import { useRouter, useParams } from "next/navigation";
 import styles from "../../../../components/admin/styles/addStyle.module.css";
 import Swal from "sweetalert2";
-import BackMenu from "@/app/components/admin/backMenu";
-import { storage } from "@/lib/firebase";
+import BackMenu from "../../../../components/admin/backMenu";
+import { storage } from "../../../../../lib/firebase";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import "react-quill/dist/quill.snow.css";
 

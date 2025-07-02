@@ -61,7 +61,7 @@
 .productTextarea:focus,
 .productSelect:focus,
 .productFileInput:focus {
-  border-color: #f8b123;
+  border-color: #1d857e;
   outline: none;
   box-shadow: 0 0 5px rgba(248, 177, 35, 0.5);
 }
@@ -130,7 +130,7 @@
 
 .removeButton,
 .addButton {
-  background-color: #f8b123;
+  background-color: #1d857e;
   color: #042037;
   border: none;
   padding: 5px 10px;

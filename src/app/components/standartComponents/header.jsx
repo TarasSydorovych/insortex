@@ -23,7 +23,7 @@ const Header = ({ t, lng }) => {
           <p className={css.freeConsultation}>
             {t("freeConsultation")}:{" "}
             <a className={css.aInFreeCons} href="tel:+30675571375">
-              +3(067) 577 13 75
+              +38(067) 577 13 75
             </a>
           </p>
           <div className={css.wrapIconsInHeader}>

@@ -5,9 +5,17 @@ import iso from "../../img/ISO.png";
 import lider from "../../img/lidedsdsd.png";
 import award from "../../img/businesawrdas.png";
 import ce from "../../img/ce.png";
+import backgroundImg from "../../img/specialnew.jpg";
+import bussinesAward from "../../img/bussinesAward.png";
 const Certification = ({ t, lng }) => {
   return (
     <div className={css.wrapcertification}>
+      {/* <Image
+        src={backgroundImg}
+        alt="Insortex"
+        className={css.backgroundImage}
+      />
+      <div className={css.content}> */}
       <p className={css.ourSertificatP}>{t("ourSertification")}</p>
 
       <div className={css.starWrap}>
@@ -29,8 +37,14 @@ const Certification = ({ t, lng }) => {
           alt="Сертифікати insortex"
           className={css.sertImage}
         />
-        <Image src={ce} alt="Сертифікати insortex" className={css.sertImage} />
+        <Image src={ce} alt="Сертифікати insortex" className={css.sertImage} />{" "}
+        <Image
+          src={bussinesAward}
+          alt="Сертифікати insortex"
+          className={css.sertImage}
+        />
       </div>
+      {/* </div> */}
     </div>
   );
 };

@@ -13,10 +13,11 @@
   height: auto;
   background: white;
 }
+/* "Futura PT" */
 .h2ForAllWorks {
   margin-top: 30px;
   margin-bottom: 60px;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
   font-size: 30px;
 }
@@ -143,16 +144,17 @@
   background: white;
 }
 .h1InWorks {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
-
+  letter-spacing: 1px;
   max-width: 100%;
 }
 .pInWorksSmall {
   margin-top: 40px;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
   font-size: 20px;
+  letter-spacing: 1px;
 }
 .wrapOneRd {
   width: 800px;
@@ -179,6 +181,7 @@
   height: auto;
   display: flex;
   flex-direction: column;
+  margin-right: 50px;
   align-items: flex-start;
 }
 .ButtonSendMess {
@@ -194,9 +197,9 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  background: #f8b123;
+  background: #1d857e;
   color: white;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   font-size: 20px;
   width: 300px;
   height: 60px;
@@ -212,7 +215,7 @@
 }
 .videoWorksP {
   margin-top: 40px;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
   font-size: 30px;
   margin-bottom: 50px;
@@ -220,11 +223,12 @@
 }
 .longDescription {
   margin-top: 60px;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
   font-size: 20px;
   line-height: 2;
   margin-bottom: 50px;
+  letter-spacing: 1px;
 }
 @media only screen and (max-width: 479px) and (min-width: 300px) {
   .catalogContainer {
@@ -242,8 +246,8 @@
     width: 100%;
     background-color: white;
     padding: 20px;
-    border-right: 0 solid #f8b123;
-    border-bottom: 1px solid #f8b123;
+    border-right: 0 solid #1d857e;
+    border-bottom: 1px solid #1d857e;
   }
   .productsMain {
     width: calc(100% - 20px);
@@ -290,8 +294,8 @@
     width: 100%;
     background-color: white;
     padding: 20px;
-    border-right: 0 solid #f8b123;
-    border-bottom: 1px solid #f8b123;
+    border-right: 0 solid #1d857e;
+    border-bottom: 1px solid #1d857e;
   }
   .productsMain {
     width: calc(100% - 20px);
@@ -339,8 +343,8 @@
     width: 100%;
     background-color: white;
     padding: 20px;
-    border-right: 0 solid #f8b123;
-    border-bottom: 1px solid #f8b123;
+    border-right: 0 solid #1d857e;
+    border-bottom: 1px solid #1d857e;
   }
   .productsMain {
     width: calc(100% - 20px);

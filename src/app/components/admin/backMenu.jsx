@@ -17,7 +17,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { signOut } from "firebase/auth";
-import { auth } from "@/lib/firebase";
+import { auth } from "../../../lib/firebase";
 import css from "./admin.module.css";
 
 const BackMenu = () => {

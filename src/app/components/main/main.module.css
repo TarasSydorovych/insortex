@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 .wrapMainFirst {
   width: 100%;
-  height: calc(100vh - 180px);
+  height: calc(900px - 180px);
   position: relative;
   overflow: hidden;
   display: flex;
@@ -35,34 +36,56 @@
   justify-content: center;
   position: relative;
   z-index: 3;
+  margin-left: 10%;
+}
+.firstImgForAbout {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  border-radius: 14px;
+  object-fit: cover;
+  top: 20px;
+  left: 0;
+  z-index: 10;
+}
+.secondImgForAbout {
+  position: absolute;
+  width: 350px;
+  height: auto;
+  border-radius: 14px;
+  object-fit: cover;
+  top: 270px;
+  right: 0;
+  z-index: 11;
 }
 .pInFirtBlockMain {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #ffffff;
   font-size: 36px;
   font-weight: 600;
-  line-height: 1.4em;
+  line-height: 1.5;
   text-shadow: 2px 2px 2px #222222;
 }
 .h1MainFirst {
   color: #ffffff;
   font-weight: 600;
   line-height: 1.5em;
-  font-family: "Futura PT";
-  font-size: 60px;
+  font-family: "Pragmatica Cond", sans-serif;
+  font-size: 40px;
   margin-top: 15px;
   margin-bottom: 15px;
+  max-width: 80%;
 }
 .h1MainFirstSpan {
   font-size: 60px;
   text-shadow: 2px 2px 2px #222222;
-  color: #f8b123;
+  color: #1d857e;
 }
 .pidPunctPMain {
   color: #ffffff;
   font-weight: 500;
   line-height: 1.5em;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   font-size: 30px;
   margin-top: 20px;
 }
@@ -70,7 +93,7 @@
   color: #042037;
   font-weight: 600;
   line-height: 1.5em;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   font-size: 60px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -130,9 +153,9 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  background: #f8b123;
+  background: #1d857e;
   color: white;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   font-size: 20px;
   width: 300px;
   height: 60px;
@@ -170,20 +193,21 @@
   align-items: flex-start;
   justify-content: flex-start;
   width: 450px;
-  height: 320px;
+  height: 420px;
 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin-top: 20px;
 }
 .odwPinOneBlock {
   margin: 0;
-  font-family: "Futura PT";
-  color: #f8b123;
+  font-family: "Pragmatica Cond", sans-serif;
+  color: #1d857e;
   font-size: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  letter-spacing: 1px;
 }
 .sColumnsGap {
   color: #042037;
@@ -192,8 +216,10 @@
 }
 .odvDescription {
   color: #042037;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
 .aboutWrap {
   width: 100%;
@@ -247,7 +273,8 @@
   align-items: center;
   justify-content: space-between;
   position: absolute;
-  background: #042037;
+  /* background: #042037; */
+  background: radial-gradient(circle, #042037, #0a4da3);
   z-index: 2;
   border-radius: 10px;
   right: -45px;
@@ -255,7 +282,7 @@
 }
 .pInYears {
   margin: 0;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   font-size: 30px;
   color: white;
   font-weight: bolder;
@@ -271,7 +298,8 @@
   align-items: center;
   justify-content: space-between;
   position: absolute;
-  background: #042037;
+  background: linear-gradient(to bottom, #042037, #0a4da3, #3b82f6);
+
   z-index: 2;
   border-radius: 10px;
   right: 60%;
@@ -292,16 +320,18 @@
   margin-top: 20px;
 }
 .aboutUsTitle {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
   font-size: 40px;
   font-weight: bolder;
 }
 .aboutUsSmallDesc {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #343536;
   margin-top: 30px;
   font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
 .blackBlock {
   width: 20px;
@@ -311,21 +341,23 @@
   margin-right: 20px;
 }
 .aboutUsSmallDescOne {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #343536;
   margin: 0;
   font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
 .buttonDetails {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f8b123;
+  background: #1d857e;
   width: 250px;
   height: 50px;
   margin-top: 40px;
   color: white;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   font-size: 20px;
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
@@ -347,17 +379,39 @@
     transform: scale(1);
   }
 }
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0.6;
+  object-fit: contain;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .wrapcertification {
   width: 100%;
   height: 485px;
-  background: url("../../img/special1.jpg");
+  background: linear-gradient(180deg, #042037, #010a14);
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .ourSertificatP {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   margin: 0;
   color: white;
   font-weight: bold;
@@ -410,7 +464,7 @@
 .wrapOneWork {
   width: 33.3333333%;
   height: 500px;
-  border: 2px solid #f8b123;
+  border: 2px solid #1d857e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -494,7 +548,7 @@
   padding-right: 20px;
 }
 .ourWorksPort {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
   font-weight: bold;
   font-size: 40px;
@@ -502,7 +556,7 @@
   margin-bottom: 30px;
 }
 .toCatalogWithArrow {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
   font-size: 25px;
   display: flex;
@@ -524,7 +578,7 @@
   transform: translateX(5px); /* Переміщує стрілку вправо на 5 пікселів */
 }
 .nameOfProducts {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
   font-size: 20px;
 }
@@ -554,7 +608,7 @@
 }
 
 .pUorCustomers {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   margin: 0;
   color: #042037;
   font-weight: bold;
@@ -617,7 +671,7 @@
   background: white;
 }
 .pMapInMap {
-  font-family: "Futura PT";
+  font-family: "Arsenal", serif;
   margin: 0;
   color: #042037;
   font-weight: bold;
@@ -666,7 +720,7 @@
 }
 
 .pMapInMap {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   margin: 0;
   color: #042037;
   font-weight: bold;
@@ -676,7 +730,7 @@
 }
 
 .uorPudf {
-  color: #f8b123;
+  color: #1d857e;
 }
 
 .mapInsortexQ {
@@ -685,11 +739,36 @@
   animation: zoomInFade 1.5s ease-out;
 }
 @media only screen and (max-width: 479px) and (min-width: 300px) {
+  .firstImgForAbout {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    border-radius: 14px;
+    object-fit: cover;
+    top: 20px;
+    left: 0;
+    z-index: 10;
+  }
+  .secondImgForAbout {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    border-radius: 14px;
+    object-fit: cover;
+    top: 270px;
+    right: 0;
+    z-index: 11;
+  }
+  .textContainer {
+    width: calc(100% - 5px);
+    padding-left: 5px;
+    margin-left: 10px;
+  }
   .pInFirtBlockMain {
-    font-size: 25px;
+    font-size: 22px;
   }
   .h1MainFirst {
-    font-size: 40px;
+    font-size: 28px;
   }
   .h1MainFirstSpan {
     font-size: 40px;
@@ -714,7 +793,7 @@
     margin-left: 0px;
   }
   .aboutUsSmallDesc {
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     color: #343536;
     margin-top: 25px;
     font-size: 15px;
@@ -758,7 +837,7 @@
   }
   .pInYears {
     margin: 0;
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     font-size: 20px;
     color: white;
     font-weight: bolder;
@@ -783,7 +862,8 @@
   .wrapcertification {
     width: 100%;
     height: 485px;
-    background: url("../../img/special1.jpg");
+    background: linear-gradient(180deg, #042037, #010a14);
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -801,7 +881,7 @@
     gap: 10px;
   }
   .sertImage {
-    height: 50px;
+    height: 45px;
     width: auto;
   }
   .wrapNameInWorks {
@@ -832,7 +912,7 @@
   .wrapOneWork {
     width: calc(100%);
     height: 300px;
-    border: 2px solid #f8b123;
+    border: 2px solid #1d857e;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -841,13 +921,13 @@
     position: relative;
   }
   .wrapOneWork:nth-child(2) {
-    border-left: 2px solid #f8b123;
-    border-right: 2px solid #f8b123;
+    border-left: 2px solid #1d857e;
+    border-right: 2px solid #1d857e;
   }
   .wrapOneWork:nth-child(4),
   .wrapOneWork:nth-child(5),
   .wrapOneWork:nth-child(6) {
-    border-top: 2px solid #f8b123;
+    border-top: 2px solid #1d857e;
   }
   .ourCustom {
     flex-shrink: 0;
@@ -859,7 +939,7 @@
     color: #042037;
     font-weight: 600;
     line-height: 1.5em;
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     font-size: 40px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -876,7 +956,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     width: 95%;
-    height: 380px;
+    height: auto;
 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-top: 20px;
@@ -891,6 +971,26 @@
   }
 }
 @media only screen and (max-width: 700px) and (min-width: 479px) {
+  .firstImgForAbout {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    border-radius: 14px;
+    object-fit: cover;
+    top: 20px;
+    left: 0;
+    z-index: 10;
+  }
+  .secondImgForAbout {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    border-radius: 14px;
+    object-fit: cover;
+    top: 270px;
+    right: 0;
+    z-index: 11;
+  }
   .ourCustom {
     flex-shrink: 0;
     width: auto; /* Width of each image */
@@ -898,14 +998,15 @@
     margin-right: 15px;
   }
   .textContainer {
-    width: calc(100% - 15px);
-    padding-left: 15px;
+    width: calc(100% - 5px);
+    padding-left: 5px;
+    margin-left: 10px;
   }
   .pInFirtBlockMain {
-    font-size: 30px;
+    font-size: 22px;
   }
   .h1MainFirst {
-    font-size: 45px;
+    font-size: 28px;
   }
   .h1MainFirstSpan {
     font-size: 45px;
@@ -930,7 +1031,7 @@
     margin-left: 0px;
   }
   .aboutUsSmallDesc {
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     color: #343536;
     margin-top: 25px;
     font-size: 15px;
@@ -974,7 +1075,7 @@
   }
   .pInYears {
     margin: 0;
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     font-size: 30px;
     color: white;
     font-weight: bolder;
@@ -1008,7 +1109,7 @@
     gap: 10px;
   }
   .sertImage {
-    height: 80px;
+    height: 60px;
     width: auto;
   }
   .wrapOurWorksOne {
@@ -1027,16 +1128,16 @@
     height: 250px;
   }
   .wrapOneWork:nth-child(2) {
-    border-left: 2px solid #f8b123;
-    border-right: 2px solid #f8b123;
+    border-left: 2px solid #1d857e;
+    border-right: 2px solid #1d857e;
   }
   .wrapOneWork:nth-child(4),
   .wrapOneWork:nth-child(5),
   .wrapOneWork:nth-child(6) {
-    border-top: 2px solid #f8b123;
+    border-top: 2px solid #1d857e;
   }
   .nameOfProducts {
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     color: #042037;
     font-size: 15px;
   }
@@ -1056,7 +1157,7 @@
     color: #042037;
     font-weight: 600;
     line-height: 1.5em;
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     font-size: 45px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -1073,7 +1174,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     width: 95%;
-    height: 320px;
+    height: 350px;
 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-top: 20px;
@@ -1094,13 +1195,13 @@
     padding-left: 15px;
   }
   .pInFirtBlockMain {
-    font-size: 35px;
+    font-size: 25px;
   }
   .h1MainFirst {
-    font-size: 50px;
+    font-size: 30px;
   }
   .h1MainFirstSpan {
-    font-size: 50px;
+    font-size: 60px;
   }
   .pidPunctPMain {
     font-size: 20px;
@@ -1132,16 +1233,16 @@
     height: 300px;
   }
   .wrapOneWork:nth-child(2) {
-    border-left: 2px solid #f8b123;
-    border-right: 2px solid #f8b123;
+    border-left: 2px solid #1d857e;
+    border-right: 2px solid #1d857e;
   }
   .wrapOneWork:nth-child(4),
   .wrapOneWork:nth-child(5),
   .wrapOneWork:nth-child(6) {
-    border-top: 2px solid #f8b123;
+    border-top: 2px solid #1d857e;
   }
   .nameOfProducts {
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     color: #042037;
     font-size: 15px;
   }
@@ -1171,13 +1272,13 @@
     padding-left: 40px;
   }
   .pInFirtBlockMain {
-    font-size: 35px;
+    font-size: 30px;
   }
   .h1MainFirst {
-    font-size: 50px;
+    font-size: 35px;
   }
   .h1MainFirstSpan {
-    font-size: 50px;
+    font-size: 60px;
   }
   .pidPunctPMain {
     font-size: 20px;
@@ -1209,13 +1310,13 @@
     height: 400px;
   }
   .wrapOneWork:nth-child(2) {
-    border-left: 2px solid #f8b123;
-    border-right: 2px solid #f8b123;
+    border-left: 2px solid #1d857e;
+    border-right: 2px solid #1d857e;
   }
   .wrapOneWork:nth-child(4),
   .wrapOneWork:nth-child(5),
   .wrapOneWork:nth-child(6) {
-    border-top: 2px solid #f8b123;
+    border-top: 2px solid #1d857e;
   }
   .pMapInMap {
     font-size: 40px;

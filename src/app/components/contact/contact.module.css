@@ -14,7 +14,7 @@
   justify-content: flex-start;
 }
 .pContackMail {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
   font-size: 50px;
   margin-top: 50px;
@@ -43,7 +43,7 @@
   margin-top: 40px;
 }
 .pAdress {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   font-size: 30px;
   color: #27214f;
 }
@@ -54,7 +54,7 @@
   margin-right: 20px;
 }
 .greyDesc {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   font-size: 20px;
   color: #7a7a7a;
   margin-top: 10px;
@@ -90,14 +90,14 @@
 }
 
 .namePosada {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
   margin-top: 10px;
   font-size: 25px;
   text-align: center;
 }
 .namePosadaNew {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
   margin-top: 10px;
   font-size: 15px;
@@ -105,21 +105,21 @@
   text-align: center;
 }
 .nameName {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
   margin-top: 10px;
   font-size: 25px;
   text-align: center;
 }
 .nameNameNew {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
   margin-top: 10px;
   font-size: 15px;
   text-align: center;
 }
 .phoneD {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
   margin-top: 10px;
   font-size: 25px;
@@ -129,7 +129,7 @@
   text-align: center;
 }
 .phoneDNew {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
   margin-top: 10px;
   font-size: 15px;
@@ -156,7 +156,7 @@
 }
 .wrapOneUserNotNew {
   width: 240px;
-  height: auto;
+  height: 572px;
   display: flex;
   flex-direction: column;
   padding: 20px; /* Відступи всередині рамки */
@@ -172,7 +172,29 @@
 }
 .imageUsersNew {
   width: 200px;
+  height: 390px;
+  object-fit: cover;
+}
+.wrapIconForNum {
+  width: auto;
   height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-top: 15px;
+}
+.faViber {
+  font-size: 50px;
+  color: #7360f2;
+}
+.aWhatsapp {
+  font-size: 50px;
+  color: #26d366;
+}
+.aTelegramPlane {
+  font-size: 50px;
+  color: #239cd8;
 }
 @media only screen and (max-width: 479px) and (min-width: 300px) {
   .wrapMapWith {

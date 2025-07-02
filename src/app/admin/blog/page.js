@@ -241,7 +241,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 import css from "../../components/admin/admin.module.css";
-import BackMenu from "@/app/components/admin/backMenu";
+import BackMenu from "../../components/admin/backMenu";
 import Swal from "sweetalert2";
 
 export default function WorksList() {

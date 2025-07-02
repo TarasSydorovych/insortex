@@ -8,27 +8,43 @@
   align-items: center;
   justify-content: space-around;
 }
+.h1MainFirstAdw {
+  color: #042037;
+  font-weight: 600;
+  line-height: 1.5em;
+  font-family: "Pragmatica Cond", sans-serif;
+  font-size: 60px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.h1MainFirstSpan {
+  font-size: 60px;
+  text-shadow: 2px 2px 2px #222222;
+  color: #1d857e;
+}
 .aboutInsortex {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   font-weight: bolder;
   font-size: 60px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #042037;
+  color: #1d857e;
 }
 .insortexLd {
   font-size: 110px;
-  color: #f8b123;
+  color: #042037;
 }
 .descriptionsAboutD {
   width: 700px;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: #042037;
   font-size: 30px;
+  letter-spacing: 1px;
 }
 .inovationsLo {
-  color: #f8b123;
+  color: #1d857e;
   font-size: 40px;
+  letter-spacing: 1px;
 }
 .secondBlockAbout {
   width: 100%;
@@ -42,7 +58,7 @@
 .secondBlockTitle {
   color: white;
   font-size: 30px;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
 }
 .wrapBlockFor {
   width: 1280px;
@@ -54,13 +70,13 @@
 .realBig {
   font-weight: bolder;
   font-size: 110px;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: white;
 }
 .realBigSmaller {
   font-weight: bolder;
   font-size: 70px;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: white;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -69,10 +85,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f8b123;
+  background: #1d857e;
   width: 330px;
   height: 60px;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   color: white;
   font-size: 25px;
   margin-top: 40px;
@@ -90,7 +106,7 @@
 }
 
 .pUorCustomers {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   margin: 0;
   color: #042037;
   font-weight: bold;
@@ -107,9 +123,9 @@
   align-items: center;
 }
 .pInAurPoslug {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   margin: 0;
-  color: #f8b123;
+  color: #1d857e;
   font-weight: bold;
   font-size: 50px;
 }
@@ -130,22 +146,23 @@
   align-items: center;
   justify-content: flex-start;
   width: 400px;
-  height: 350px;
+  height: 380px;
 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin-top: 20px;
 }
 .namePererob {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
   font-weight: bold;
 }
 .descPererob {
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   font-size: 20px;
   text-align: center;
+  letter-spacing: 1px;
 }
 .wrapDiplomsAll {
   width: 100%;
@@ -178,9 +195,10 @@
 }
 .descriptionsDeploms {
   text-align: center;
-  font-family: "Futura PT";
+  font-family: "Pragmatica Cond", sans-serif;
   margin-top: 20px;
   font-size: 20px;
+  letter-spacing: 1px;
 }
 .wrapAllCertAndDip {
   width: 1300px;
@@ -198,7 +216,7 @@
 }
 
 .wrapAllCertAndDip::-webkit-scrollbar-thumb {
-  background-color: #f8b123;
+  background-color: #1d857e;
   border-radius: 10px;
 }
 
@@ -280,25 +298,25 @@
     justify-content: space-around;
   }
   .aboutInsortex {
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     font-weight: bolder;
     font-size: 35px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #042037;
+    color: #1d857e;
   }
   .insortexLd {
     font-size: 60px;
-    color: #f8b123;
+    color: #042037;
   }
   .descriptionsAboutD {
     width: 95%;
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     color: #042037;
     font-size: 25px;
   }
   .inovationsLo {
-    color: #f8b123;
+    color: #1d857e;
     font-size: 30px;
   }
   .wrapBlockFor {
@@ -312,7 +330,7 @@
   .realBigSmaller {
     font-weight: bolder;
     font-size: 30px;
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     color: white;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -320,16 +338,16 @@
   .secondBlockTitle {
     color: white;
     font-size: 20px;
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
   }
   .buttonForPopUp {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f8b123;
+    background: #1d857e;
     width: 300px;
     height: 60px;
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     color: white;
     font-size: 22px;
     margin-top: 40px;
@@ -419,25 +437,25 @@
     justify-content: space-around;
   }
   .aboutInsortex {
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     font-weight: bolder;
     font-size: 35px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #042037;
+    color: #1d857e;
   }
   .insortexLd {
     font-size: 60px;
-    color: #f8b123;
+    color: #042037;
   }
   .descriptionsAboutD {
     width: 95%;
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     color: #042037;
     font-size: 25px;
   }
   .inovationsLo {
-    color: #f8b123;
+    color: #1d857e;
     font-size: 30px;
   }
   .wrapBlockFor {
@@ -451,7 +469,7 @@
   .realBigSmaller {
     font-weight: bolder;
     font-size: 30px;
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     color: white;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -459,7 +477,7 @@
   .secondBlockTitle {
     color: white;
     font-size: 20px;
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
   }
   .listOfPoslug {
     width: 100%;
@@ -531,7 +549,7 @@
   .realBigSmaller {
     font-weight: bolder;
     font-size: 60px;
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     color: white;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -539,7 +557,7 @@
   .secondBlockTitle {
     color: white;
     font-size: 30px;
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
   }
   .listOfPoslug {
     width: 100%;
@@ -583,7 +601,7 @@
   .realBigSmaller {
     font-weight: bolder;
     font-size: 70px;
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
     color: white;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -591,7 +609,7 @@
   .secondBlockTitle {
     color: white;
     font-size: 30px;
-    font-family: "Futura PT";
+    font-family: "Pragmatica Cond", sans-serif;
   }
   .listOfPoslug {
     width: 100%;
@@ -621,6 +639,16 @@
     overflow-x: auto;
     margin-top: 50px;
     padding-bottom: 10px;
+  }
+  .insortexLd {
+    font-size: 90px;
+    color: #042037;
+  }
+  .descriptionsAboutD {
+    width: 50%;
+    font-family: "Pragmatica Cond", sans-serif;
+    color: #042037;
+    font-size: 25px;
   }
 }
 @media only screen and (max-width: 1400px) and (min-width: 1200px) {

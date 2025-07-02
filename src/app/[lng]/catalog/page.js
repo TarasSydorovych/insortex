@@ -1,13 +1,13 @@
 import Link from "next/link";
 import styles from "../../components/catalog/catalog.module.css";
-import { transliterate } from "@/utils/transliterate";
-import Header from "@/app/components/standartComponents/header";
-import Footer from "@/app/components/standartComponents/footer";
+import { transliterate } from "../../../utils/transliterate";
+import Header from "../../components/standartComponents/header";
+import Footer from "../../components/standartComponents/footer";
 import { useTranslation } from "../../i18n";
 import { AiOutlinePlus } from "react-icons/ai";
 import "../../components/font/FuturaPT/stylesheet.css";
 import "../../components/font/monrope/stylesheet.css";
-import OneProductWrap from "@/app/components/catalog/oneProductWrap";
+import OneProductWrap from "../../components/catalog/oneProductWrap";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 // Функція для отримання категорій з API
@@ -68,7 +68,6 @@ export default async function CatalogPage({ params: { lng } }) {
   const categories = await getCategories();
   const products = await getAllProducts();
   const { t } = await useTranslation(lng);
-
   return (
     <div className={styles.wrapAllCat}>
       <GoogleAnalytics gaId="G-DJMSC241E7" />

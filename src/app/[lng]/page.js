@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
 import css from "../components/main/main.module.css";
 import { useTranslation } from "../i18n";
-
+import Image from "next/image";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import Header from "../components/standartComponents/header";
 import "../components/font/FuturaPT/stylesheet.css";
@@ -16,6 +16,8 @@ import SendSmallForm from "../components/sendSmallForm/sendSmallForm";
 import Footer from "../components/standartComponents/footer";
 import MapInsortex from "../components/main/mapInsortex";
 
+import e4bis from "../img/e4bis.png";
+import ListOfWorks from "../components/about/listOfWorks";
 const metadataByLanguage = {
   en: {
     title: "Order Equipment | High-Quality Manufacturing Insortex",
@@ -67,17 +69,32 @@ const Home = async ({ params: { lng } }) => {
         <Header t={t} lng={lng} />
 
         <MainFirst t={t} lng={lng} />
-        <AboutMain t={t} lng={lng} />
+        <ListOfWorks t={t} lng={lng} />
+        {/* <OurAdvantages t={t} lng={lng} /> */}
         <Certification t={t} lng={lng} />
         <SendSmallForm t={t.lng} />
         <OurWorks t={t} lng={lng} />
         <div className={css.wrapCustomers}>
-          <p className={css.pUorCustomers}>{t("ourSup")}</p>
+          <h2 className={css.h1MainFirstAdw}>
+            {" "}
+            <span className={css.h1MainFirstSpan}>{t("ourSup")}</span>{" "}
+            {t("ourSupTwo")}
+          </h2>
+          {/* <p className={css.pUorCustomers}>{t("ourSup")}</p> */}
           <OurCustomers />
         </div>
-        <OurAdvantages t={t} lng={lng} />
+        <AboutMain t={t} lng={lng} />
+
         <MapInsortex t={t} lng={lng} />
         <SendSmallForm t={t.lng} lng={lng} />
+        <div className={styles.banerEu}>
+          {" "}
+          <Image
+            src={e4bis}
+            alt="Insortex"
+            className={styles.imageStyleeu} // Додаємо клас для стилізації, якщо потрібно
+          />
+        </div>
         <Footer t={t} lng={lng} />
       </main>
     </>

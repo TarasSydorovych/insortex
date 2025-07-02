@@ -1,12 +1,13 @@
-// src/app/login/layout.js
-import React from "react";
+// src/app/layout.js
+export const metadata = {
+  title: "Your App Title",
+  description: "Your App Description",
+};
 
-export default function LoginLayout({ children }) {
+export default function RootLayout({ children }) {
   return (
-    <div>
-      <header>{/* Ваш хедер */}</header>
-      <main>{children}</main>
-      <footer>{/* Ваш футер */}</footer>
-    </div>
+    <html lang="en">
+      <body>{children}</body>
+    </html>
   );
 }

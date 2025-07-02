@@ -55,12 +55,12 @@
 "use client";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import CategoryForm from "@/app/components/admin/category/categoryForm";
+import CategoryForm from "../../../components/admin/category/categoryForm";
 import css from "../../../components/admin/admin.module.css";
 import { useRouter } from "next/navigation";
 import "../../../components/font/FuturaPT/stylesheet.css";
 import "../../../components/font/monrope/stylesheet.css";
-import BackMenu from "@/app/components/admin/backMenu";
+import BackMenu from "../../../components/admin/backMenu";
 
 export default function EditCategoryPage({ params }) {
   const { id } = params;

@@ -133,16 +133,16 @@
 //   }
 // }
 import axios from "axios";
-import Header from "@/app/components/standartComponents/header";
-import Footer from "@/app/components/standartComponents/footer";
-import { useTranslation } from "@/app/i18n";
-import WorkSlider from "@/app/components/works/slider"; // Імпорт клієнтського слайдера
+import Header from "../../../components/standartComponents/header";
+import Footer from "../../../components/standartComponents/footer";
+import { useTranslation } from "../../../i18n";
+import WorkSlider from "../../../components/works/slider"; // Імпорт клієнтського слайдера
 import styles from "../../../components/works/works.module.css";
 import "../../../components/font/FuturaPT/stylesheet.css";
 import "../../../components/font/monrope/stylesheet.css";
-import PictureBlock from "@/app/components/works/pictureBlock";
-import ButtonSendMess from "@/app/components/works/buttonSendMess";
-import VideoFor from "@/app/components/works/videoFor";
+import PictureBlock from "../../../components/works/pictureBlock";
+import ButtonSendMess from "../../../components/works/buttonSendMess";
+import VideoFor from "../../../components/works/videoFor";
 import { GoogleAnalytics } from "@next/third-parties/google";
 // Функція для отримання конкретної роботи з API
 async function getWorkById(id) {

@@ -8,3 +8,15 @@
   position: relative;
   z-index: 100;
 }
+.banerEu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageStyleeu {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

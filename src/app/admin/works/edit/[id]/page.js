@@ -7,7 +7,7 @@ import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import Swal from "sweetalert2";
 import dynamic from "next/dynamic";
 import css from "../../../../components/admin/styles/addStyle.module.css";
-import BackMenu from "@/app/components/admin/backMenu";
+import BackMenu from "../../../../components/admin/backMenu";
 
 // Динамічний імпорт ReactQuill без SSR
 const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });

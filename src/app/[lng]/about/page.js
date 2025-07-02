@@ -1,4 +1,4 @@
-import Header from "@/app/components/standartComponents/header";
+import Header from "../../components/standartComponents/header";
 import styles from "./page.module.css";
 import css from "../../components/about/about.module.css";
 import { useTranslation } from "../../i18n";
@@ -6,12 +6,13 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import AboutFirst from "../../components/about/aboutFirst";
 import "../../components/font/FuturaPT/stylesheet.css";
 import "../../components/font/monrope/stylesheet.css";
-import SecondBlockAbout from "@/app/components/about/secondBlockAbout";
-import OurCustomers from "@/app/components/main/ourCustomers";
-import ListOfWorks from "@/app/components/about/listOfWorks";
-import Footer from "@/app/components/standartComponents/footer";
-import SendSmallForm from "@/app/components/sendSmallForm/sendSmallForm";
-import DipomAndCer from "@/app/components/about/dipomAndCer";
+import SecondBlockAbout from "../../components/about/secondBlockAbout";
+import OurCustomers from "../../components/main/ourCustomers";
+import ListOfWorks from "../../components/about/listOfWorks";
+import Footer from "../../components/standartComponents/footer";
+import SendSmallForm from "../../components/sendSmallForm/sendSmallForm";
+import DipomAndCer from "../../components/about/dipomAndCer";
+import OurAdvantages from "../../components/main/ourAdvantages";
 
 const metadataByLanguage = {
   en: {
@@ -52,12 +53,19 @@ const About = async ({ params: { lng } }) => {
       <GoogleAnalytics gaId="G-DJMSC241E7" />
       <Header t={t} lng={lng} />
       <AboutFirst t={t} lng={lng} />
+      <OurAdvantages t={t} lng={lng} />
+      {/* <ListOfWorks t={t} lng={lng} /> */}
       <SecondBlockAbout t={t} lng={lng} />
       <div className={css.wrapOurQw}>
-        <p className={css.pUorCustomers}>{t("ourSup")}</p>
+        {/* <p className={css.pUorCustomers}>{t("ourSup")}</p> */}
+        <h2 className={css.h1MainFirstAdw}>
+          {" "}
+          <span className={css.h1MainFirstSpan}>{t("ourSup")}</span>{" "}
+          {t("ourSupTwo")}
+        </h2>
         <OurCustomers />
       </div>
-      <ListOfWorks t={t} lng={lng} />
+
       <SendSmallForm t={t.lng} lng={lng} />
       <DipomAndCer t={t} lng={lng} />
       <Footer t={t} lng={lng} />

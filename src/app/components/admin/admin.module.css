@@ -39,7 +39,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  background-color: #f8b123; /* Фон меню */
+  background-color: #1d857e; /* Фон меню */
   flex-shrink: 0;
   border-bottom-right-radius: 20px; /* Округлі кути знизу */
   box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1); /* Тінь для бокового меню */
@@ -120,7 +120,7 @@
 .inputInCate:focus,
 .textAreaInCate:focus,
 .reacrQilrddf:focus {
-  border-color: #f8b123;
+  border-color: #1d857e;
   outline: none;
   box-shadow: 0 0 5px rgba(248, 177, 35, 0.5);
 }
@@ -142,7 +142,7 @@
 }
 
 .submitBtn {
-  background-color: #f8b123;
+  background-color: #1d857e;
   color: #ffffff;
   padding: 10px 20px;
   border: none;
@@ -233,7 +233,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  background: #f8b123;
+  background: #1d857e;
   color: white;
   font-family: "Futura PT";
   font-size: 20px;
@@ -246,7 +246,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  background: #f8b123;
+  background: #1d857e;
   color: white;
   font-family: "Futura PT";
   font-size: 18px;
@@ -288,7 +288,7 @@
 }
 
 .tableRow:hover {
-  background-color: #f8b123;
+  background-color: #1d857e;
 }
 
 .tableCell {
@@ -298,7 +298,7 @@
 
 .editButton,
 .deleteButton {
-  background-color: #f8b123;
+  background-color: #1d857e;
   color: #042037;
   border: none;
   padding: 5px 10px;

@@ -1,6 +1,6 @@
 import css from "./product.module.css"; // Імпортуйте свої стилі
 
-export default function CharacteristicsList({ productData, t }) {
+export default function CharacteristicsList({ productData, t, lng }) {
   return (
     <div className={css.haracteristicWrap}>
       <p className={css.haracterisvP}>{t("haracteristics")}</p>
@@ -11,7 +11,7 @@ export default function CharacteristicsList({ productData, t }) {
               key={characteristic._id}
               className={index % 2 === 0 ? css.evenItem : css.oddItem} // Чередування класів
             >
-              {characteristic.title.ua} {/* Виводьте потрібне значення тут */}
+              {characteristic.title[lng]} {/* Виводьте потрібне значення тут */}
             </li>
           ))}
       </ul>

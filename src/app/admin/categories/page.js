@@ -51,9 +51,9 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useRouter } from "next/navigation";
-import CategoryList from "@/app/components/admin/category/categoryList";
+import CategoryList from "../../components/admin/category/categoryList";
 import css from "../../components/admin/admin.module.css";
-import BackMenu from "@/app/components/admin/backMenu";
+import BackMenu from "../../components/admin/backMenu";
 import "../../components/font/FuturaPT/stylesheet.css";
 import "../../components/font/monrope/stylesheet.css";
 export default function CategoriesPage() {

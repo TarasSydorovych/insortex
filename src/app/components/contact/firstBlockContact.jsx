@@ -56,7 +56,7 @@ const FirstBlockContact = ({ t, lng }) => {
               insortex.viktor@gmail.com
             </p>
           </div>
-          <div className={css.wrapOneUserNotNew}>
+          {/* <div className={css.wrapOneUserNotNew}>
             <Image
               src={mostovaA}
               alt="insortex"
@@ -72,8 +72,8 @@ const FirstBlockContact = ({ t, lng }) => {
               <MdEmail className={css.mdLocalPhoneNew} />
               alina.insortex@gmail.com
             </p>
-          </div>
-          <div className={css.wrapOneUserNotNew}>
+          </div> */}
+          {/* <div className={css.wrapOneUserNotNew}>
             <Image src={hrVid} alt="insortex" className={css.imageUsersNew} />
             <p className={css.namePosadaNew}>{t("hr")}</p>
             <p className={css.nameNameNew}>{t("hrName")}</p>
@@ -85,7 +85,7 @@ const FirstBlockContact = ({ t, lng }) => {
               <MdEmail className={css.mdLocalPhoneNew} />
               hr.insortex@gmail.com
             </p>
-          </div>
+          </div> */}
           <div className={css.wrapOneUserNotNew}>
             <Image src={maksum} alt="insortex" className={css.imageUsersNew} />
             <p className={css.namePosadaNew}>{t("postach")}</p>
@@ -118,7 +118,8 @@ const FirstBlockContact = ({ t, lng }) => {
           </div>{" "}
           <div className={css.wrapOneUserNotNew}>
             <Image src={jakist} alt="insortex" className={css.imageUsersNew} />
-            <p className={css.namePosadaNew}>{t("jakist")}</p>
+            {/* <p className={css.namePosadaNew}>{t("jakist")}</p> */}
+            <p className={css.namePosadaNew}>{t("hr")}</p>
             <p className={css.nameNameNew}>{t("jakistName")}</p>
             <p className={css.phoneDNew}>
               <MdLocalPhone className={css.mdLocalPhoneNew} />

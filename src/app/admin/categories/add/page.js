@@ -1,8 +1,8 @@
 "use client";
 import { useRouter } from "next/navigation";
-import CategoryForm from "@/app/components/admin/category/categoryForm";
+import CategoryForm from "../../../components/admin/category/categoryForm";
 import css from "../../../components/admin/admin.module.css";
-import BackMenu from "@/app/components/admin/backMenu";
+import BackMenu from "../../../components/admin/backMenu";
 import { useEffect, useState } from "react";
 import axios from "axios"; // Не забудь імпорт axios
 

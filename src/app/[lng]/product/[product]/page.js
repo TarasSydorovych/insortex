@@ -1,18 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
-import { transliterate } from "@/utils/transliterate";
-import css from "@/app/components/product/product.module.css";
-import { useTranslation } from "@/app/i18n";
-import Header from "@/app/components/standartComponents/header";
-import Footer from "@/app/components/standartComponents/footer";
+import { transliterate } from "../../../../utils/transliterate";
+import css from "../../../components/product/product.module.css";
+import { useTranslation } from "../../../i18n";
+import Header from "../../../components/standartComponents/header";
+import Footer from "../../../components/standartComponents/footer";
 import { notFound } from "next/navigation";
-import PictureBlock from "@/app/components/product/pictureBlock";
-import SecondBlockMain from "@/app/components/product/secondBlockMain";
+import PictureBlock from "../../../components/product/pictureBlock";
+import SecondBlockMain from "../../../components/product/secondBlockMain";
 import "../../../components/font/FuturaPT/stylesheet.css";
 import "../../../components/font/monrope/stylesheet.css";
-import CharacteristicsList from "@/app/components/product/characteristicsList";
-import VideoReview from "@/app/components/product/videoReview";
-import SeoText from "@/app/components/product/seoText";
+import CharacteristicsList from "../../../components/product/characteristicsList";
+import VideoReview from "../../../components/product/videoReview";
+import SeoText from "../../../components/product/seoText";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 export async function generateMetadata({ params }) {
@@ -35,8 +35,9 @@ export async function generateMetadata({ params }) {
 
     // Шукаємо товар за транслитерованим ім'ям
     const productData = allProducts.find(
-      (p) => transliterate(p.name[lng]) === transliteratedProductName
+      (p) => transliterate(p.name[lng]) === product
     );
+    console.log("Transliterated product name:", transliteratedProductName);
 
     if (!productData) {
       console.error("Product not found:", product);
@@ -101,10 +102,18 @@ const ProductPage = async ({ params }) => {
             <PictureBlock productData={productData} />
             <SecondBlockMain t={t} lng={lng} productData={productData} />
           </div>
-          <CharacteristicsList productData={productData} t={t} lng={lng} />
-          <p className={css.vieoVievP}>{t("videoView")}</p>
-          <VideoReview videoId={productData.videoUrl} />
-          <SeoText productData={productData} t={t} lng={lng} />
+          {productData && productData.characteristics.length > 0 && (
+            <CharacteristicsList productData={productData} t={t} lng={lng} />
+          )}
+          {productData && productData.videoUrl && (
+            <p className={css.vieoVievP}>{t("videoView")}</p>
+          )}
+          {productData && productData.videoUrl && (
+            <VideoReview videoId={productData.videoUrl} />
+          )}
+          {productData && productData.longDescription[lng] && (
+            <SeoText productData={productData} t={t} lng={lng} />
+          )}
         </div>
         {/* <div className={css.productInfo}>
           <h1 className={css.productTitle}>{productData.name[lng]}</h1>
