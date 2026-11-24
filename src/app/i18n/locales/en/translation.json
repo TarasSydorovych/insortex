@@ -63,7 +63,7 @@
   "aboutTheyearPageSTitle": "OVER THE YEARS",
   "desctSecondBlockAbout": "Our completed projects are proof of the quality of our work. The fact that most of our clients maintain long-term relationships with us is further confirmation that our work is not only excellent but also that we prioritize client care.",
   "napramDijzlnistAbout": "Business areas",
-  "firtAboutNapTitle": "Processing",
+  "firtAboutNapTitle": "Sorting and recycling",
   "firstAboutDescNap": "Processing of berries, fruits, vegetables, and nuts — innovative equipment ensuring high quality at every stage of production, from initial cleaning to the final product. Our technologies preserve the natural taste and nutritional value, optimizing processing for the best result.",
   "secondAboutNapTitle": "Dairy and meat products",
   "secondAboutDescNap": "Advanced solutions that meet the highest hygiene and quality standards. Our equipment ensures reliability and efficiency at all processing stages, guaranteeing the production of safe and tasty products.",
@@ -77,7 +77,7 @@
   "sixAboutDescNap": "Smart solutions for optimizing storage and logistics in your warehouse. Our equipment helps improve operational efficiency, reduce costs, and improve inventory management, ensuring smooth operations.",
   "sevenAboutNapTitle": "Heating equipment",
   "sevenAboutDescNap": "Reliable and energy-efficient systems providing heat and comfort in any conditions. Our solutions help reduce energy costs while ensuring high performance and longevity.",
-  "eightAboutNapTitle": "Loft furniture and metal structures",
+  "eightAboutNapTitle": "Loft furniture",
   "eightAboutDescNap": "Modern design and functionality that add uniqueness and style to your space. Our solutions are created for those who value industrial charm and want to make their interior one-of-a-kind.",
   "uorDiplomsAndCertas": "Our certificates and diplomas",
   "icgCertificatDesc": "INSORTEX proudly announces the production of equipment in accordance with the highest European quality standards. Our products not only meet market requirements but also exceed expectations through our constant pursuit of excellence. We are proud that our products have CE certificates confirming compliance with European quality standards. The CE certificate is a significant proof of our commitment to high safety, reliability, and environmental responsibility standards. Additionally, INSORTEX operates in accordance with ISO 9001:2015 (updated in 2018). This international standard defines the requirements for quality management systems and confirms that all processes in our company are organized as efficiently as possible.",
@@ -111,8 +111,26 @@
   "hrName": "Atazhanova Valentyna Oleksandrivna",
   "postach": "Supply Manager",
   "postachName": "Silenco Maksym Volodymyrovych",
-  "construktor": "Head of Design and Construction Department",
-  "constructorName": "Lednik Roman Anatoliyovych",
+  "construktor": "Acting Head of Design and Engineering Department",
+  "constructorName": "Anastasiia Hurina",
   "jakist": "Quality Systems Manager",
-  "jakistName": "Kulikova Olena Oleksiivna"
+  "jakistName": "Kulikova Olena Oleksiivna",
+  "nineAboutNapTitle": "Automation of production processes",
+  "nineAboutDescNap": "We implement modern systems that increase efficiency, precision, and speed of operations while minimizing human factor influence.",
+  "tenAboutNapTitle": "Hot tubs and baths",
+  "tenAboutDescNap": "We create durable and comfortable wellness tubs that combine traditional craftsmanship with modern technology for relaxation and recovery.",
+  "elevenAboutNapTitle": "Other metal structures",
+  "elevenAboutDescNap": "We manufacture custom metal products such as frames, supports, and platforms, tailored to individual projects and any level of complexity.",
+  "tehDir": "Technical Director",
+
+  "tehDirName": "Vasyl Yas'ko",
+  "zedMan": "Head of Foreign Economic Relations Department",
+
+  "zedManName": "Oleksandra Khudolii",
+  "nachVur": "Head of Production",
+
+  "nachVurName": "Serhii Kleshchar",
+  "golBuh": "Chief Accountant",
+
+  "golBuhName": "Nataliia Voronkova"
 }

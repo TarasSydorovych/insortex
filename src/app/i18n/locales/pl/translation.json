@@ -63,7 +63,7 @@
   "aboutTheyearPageSTitle": "PRZEZ LATA",
   "desctSecondBlockAbout": "Nasze ukończone projekty są dowodem jakości naszej pracy. Fakt, że większość naszych klientów utrzymuje długotrwałe relacje z nami, jest kolejnym potwierdzeniem, że nasza praca jest nie tylko doskonała, ale także że troska o naszych klientów jest dla nas priorytetem.",
   "napramDijzlnistAbout": "Obszary działalności",
-  "firtAboutNapTitle": "Przetwórstwo",
+  "firtAboutNapTitle": "Sortowanie i recykling",
   "firstAboutDescNap": "Przetwórstwo jagód, owoców, warzyw i orzechów — innowacyjne urządzenia, które zapewniają wysoką jakość na każdym etapie produkcji, od wstępnego czyszczenia po produkt końcowy. Nasze technologie pozwalają zachować naturalny smak i wartość odżywczą, optymalizując procesy przetwórstwa dla najlepszego rezultatu.",
   "secondAboutNapTitle": "Produkty mięsno-mleczne",
   "secondAboutDescNap": "Nowoczesne rozwiązania, które spełniają najwyższe standardy higieny i jakości. Nasze urządzenia zapewniają niezawodność i efektywność na wszystkich etapach przetwórstwa, co gwarantuje produkcję bezpiecznych i smacznych produktów.",
@@ -77,7 +77,7 @@
   "sixAboutDescNap": "Inteligentne rozwiązania do optymalizacji przechowywania i logistyki w Twoim magazynie. Nasze urządzenia pomagają zwiększyć efektywność pracy, zmniejszyć koszty i poprawić zarządzanie zapasami, zapewniając ciągłość pracy.",
   "sevenAboutNapTitle": "Urządzenia grzewcze",
   "sevenAboutDescNap": "Niezawodne i energooszczędne systemy, które zapewniają ciepło i komfort w każdych warunkach. Nasze rozwiązania pomagają zmniejszyć wydatki na energię, zapewniając jednocześnie wysoką wydajność i trwałość.",
-  "eightAboutNapTitle": "Meble loftowe i konstrukcje metalowe",
+  "eightAboutNapTitle": "Meble loftowe",
   "eightAboutDescNap": "Nowoczesny design i funkcjonalność, które nadają Twojemu wnętrzu wyjątkowy charakter i styl. Nasze rozwiązania zostały stworzone dla tych, którzy cenią przemysłowy urok i pragną uczynić swoje wnętrze niepowtarzalnym.",
   "uorDiplomsAndCertas": "Nasze certyfikaty i dyplomy",
   "icgCertificatDesc": "Firma INSORTEX z dumą informuje, że produkuje urządzenia zgodnie z najwyższymi europejskimi standardami jakości. Nasze produkty nie tylko spełniają wymagania rynku, ale także przekraczają oczekiwania dzięki ciągłemu dążeniu do doskonałości. Jesteśmy dumni, że nasze produkty posiadają certyfikaty CE, które potwierdzają zgodność z europejskimi standardami jakości. Certyfikat CE jest ważnym dowodem naszego zaangażowania w wysokie standardy bezpieczeństwa, niezawodności i odpowiedzialności ekologicznej. Ponadto INSORTEX działa zgodnie z normą ISO 9001:2015 (aktualizacja z 2018 roku). Ten międzynarodowy standard określa wymagania dotyczące systemu zarządzania jakością i potwierdza, że wszystkie procesy w naszej firmie są organizowane w sposób maksymalnie efektywny.",
@@ -111,8 +111,26 @@
   "hrName": "Atazjanowa Walentyna Aleksandrowna",
   "postach": "Menadżer ds. zaopatrzenia",
   "postachName": "Silenko Maksym Włodzimierzowicz",
-  "construktor": "Szef działu projektowo-konstrukcyjnego",
-  "constructorName": "Lednik Roman Anatolijowicz",
+  "construktor": "p.o. Kierownika ds. projektowo-konstrukcyjnych",
+  "constructorName": "Anastasiia Hurina",
   "jakist": "Menadżer systemów jakości",
-  "jakistName": "Kulikowa Olena Ołeksijewna"
+  "jakistName": "Kulikowa Olena Ołeksijewna",
+  "nineAboutNapTitle": "Automatyzacja procesów produkcyjnych",
+  "nineAboutDescNap": "Wdrażamy nowoczesne systemy, które zwiększają efektywność, precyzję i szybkość pracy zakładów, jednocześnie minimalizując wpływ czynnika ludzkiego.",
+  "tenAboutNapTitle": "Beczki kąpielowe i baliie",
+  "tenAboutDescNap": "Produkujemy wygodne i trwałe beczki do kąpieli, łączące tradycję z nowoczesną technologią dla relaksu i regeneracji.",
+  "elevenAboutNapTitle": "Inne konstrukcje metalowe",
+  "elevenAboutDescNap": "Produkujemy niestandardowe elementy metalowe, takie jak ramy, wsporniki i platformy, dostosowane do indywidualnych projektów.",
+  "tehDir": "Dyrektor techniczny",
+
+  "tehDirName": "Wasyli Jasko",
+  "zedMan": "Kierownik działu ds. handlu zagranicznego",
+
+  "zedManName": "Ołeksandra Chudolij",
+  "nachVur": "Kierownik produkcji",
+
+  "nachVurName": "Serhij Kleszczar",
+  "golBuh": "Główna księgowa",
+
+  "golBuhName": "Natalia Woronkowa"
 }

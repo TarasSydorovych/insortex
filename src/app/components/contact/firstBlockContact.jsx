@@ -1,138 +1,87 @@
-import css from "./contact.module.css";
+import Image from "next/image";
+import Link from "next/link";
+import { LuArrowUpRight, LuChevronRight } from "react-icons/lu";
+import { MdEmail, MdLocalPhone } from "react-icons/md";
+import directorInsortex from "../../img/directorInsortex.jpg";
 import LocalInform from "./localInform";
 import Map from "./map";
-import directorInsortex from "../../img/directorInsortex.jpg";
-import Image from "next/image";
-import { MdLocalPhone } from "react-icons/md";
-import { MdEmail } from "react-icons/md";
-import zaporogets from "../../img/IMG_2892.jpg";
-import mostovaA from "../../img/IMG_2886.jpg";
-import hrVid from "../../img/IMG_2893.jpg";
-import maksum from "../../img/IMG_2888.jpg";
-import lendikRoma from "../../img/IMG_2889.jpg";
-import jakist from "../../img/IMG_2891.jpg";
-const FirstBlockContact = ({ t, lng }) => {
+import contactCopy, { directionsUrl } from "./contactCopy";
+import css from "./contact.module.css";
+
+const director = {
+  role: "director", name: "directorName", phone: "+380675771375", email: "insortex@gmail.com",
+};
+const team = [
+  { role: "saleComercia", name: "saleOneInsortex", phone: "+380668085626", email: "insortex.viktor@gmail.com" },
+  { role: "postach", name: "postachName", phone: "+380665464409", email: "maksym.insortex@gmail.com" },
+  { role: "construktor", name: "constructorName", phone: "+380997717887", email: "gurina.insortex@gmail.com" },
+  { role: "tehDir", name: "tehDirName", phone: "+380950555123", email: "insortex2@gmail.com" },
+  { role: "zedMan", name: "zedManName", phone: "+380681567272", email: "aleks.insortex@gmail.com" },
+  { role: "nachVur", name: "nachVurName", phone: "+380501014369", email: "0501014369p@gmail.com" },
+  { role: "golBuh", name: "golBuhName", email: "insortex4@gmail.com" },
+  { role: "hr", name: "jakistName", phone: "+380667556778", email: "kea.avator@gmail.com" },
+];
+
+function ContactLinks({ person }) {
   return (
-    <div className={css.wrapContact}>
-      <p className={css.pContackMail}>{t("contacts")}</p>
-      <div className={css.wrapMapWith}>
-        <Map />
-        <LocalInform t={t} />
-      </div>
-      <div className={css.usersContact}>
-        <p className={css.pContackMail}>{t("ourTeam")}</p>
-        <div className={css.wrapOneUser}>
-          <Image
-            src={directorInsortex}
-            alt="insortex"
-            className={css.imageUsers}
-          />
-          <p className={css.namePosada}>{t("director")}</p>
-          <p className={css.nameName}>{t("directorName")}</p>
-          <p className={css.phoneD}>
-            <MdLocalPhone className={css.mdLocalPhone} />
-            +380675771375
-          </p>
-          <p className={css.phoneD}>
-            <MdEmail className={css.mdLocalPhone} />
-            insortex@gmail.com
-          </p>
-        </div>
-        <div className={css.wrapAllContact}>
-          <div className={css.wrapOneUserNotNew}>
-            <Image
-              src={zaporogets}
-              alt="insortex"
-              className={css.imageUsersNew}
-            />
-            <p className={css.namePosadaNew}>{t("saleComercia")}</p>
-            <p className={css.nameNameNew}>{t("saleOneInsortex")}</p>
-            <p className={css.phoneDNew}>
-              <MdLocalPhone className={css.mdLocalPhoneNew} />
-              +380668085626
-            </p>
-            <p className={css.phoneDNew}>
-              <MdEmail className={css.mdLocalPhoneNew} />
-              insortex.viktor@gmail.com
-            </p>
-          </div>
-          {/* <div className={css.wrapOneUserNotNew}>
-            <Image
-              src={mostovaA}
-              alt="insortex"
-              className={css.imageUsersNew}
-            />
-            <p className={css.namePosadaNew}>{t("saleManager")}</p>
-            <p className={css.nameNameNew}>{t("saleTwoInsortex")}</p>
-            <p className={css.phoneDNew}>
-              <MdLocalPhone className={css.mdLocalPhoneNew} />
-              +380664327169
-            </p>
-            <p className={css.phoneDNew}>
-              <MdEmail className={css.mdLocalPhoneNew} />
-              alina.insortex@gmail.com
-            </p>
-          </div> */}
-          {/* <div className={css.wrapOneUserNotNew}>
-            <Image src={hrVid} alt="insortex" className={css.imageUsersNew} />
-            <p className={css.namePosadaNew}>{t("hr")}</p>
-            <p className={css.nameNameNew}>{t("hrName")}</p>
-            <p className={css.phoneDNew}>
-              <MdLocalPhone className={css.mdLocalPhoneNew} />
-              +380664375029
-            </p>
-            <p className={css.phoneDNew}>
-              <MdEmail className={css.mdLocalPhoneNew} />
-              hr.insortex@gmail.com
-            </p>
-          </div> */}
-          <div className={css.wrapOneUserNotNew}>
-            <Image src={maksum} alt="insortex" className={css.imageUsersNew} />
-            <p className={css.namePosadaNew}>{t("postach")}</p>
-            <p className={css.nameNameNew}>{t("postachName")}</p>
-            <p className={css.phoneDNew}>
-              <MdLocalPhone className={css.mdLocalPhoneNew} />
-              +380665464409
-            </p>
-            <p className={css.phoneDNew}>
-              <MdEmail className={css.mdLocalPhoneNew} />
-              maksym.insortex@gmail.com
-            </p>
-          </div>
-          <div className={css.wrapOneUserNotNew}>
-            <Image
-              src={lendikRoma}
-              alt="insortex"
-              className={css.imageUsersNew}
-            />
-            <p className={css.namePosadaNew}>{t("construktor")}</p>
-            <p className={css.nameNameNew}>{t("constructorName")}</p>
-            <p className={css.phoneDNew}>
-              <MdLocalPhone className={css.mdLocalPhoneNew} />
-              +380952236922
-            </p>
-            <p className={css.phoneDNew}>
-              <MdEmail className={css.mdLocalPhoneNew} />
-              lednik.insortex@gmail.com
-            </p>
-          </div>{" "}
-          <div className={css.wrapOneUserNotNew}>
-            <Image src={jakist} alt="insortex" className={css.imageUsersNew} />
-            {/* <p className={css.namePosadaNew}>{t("jakist")}</p> */}
-            <p className={css.namePosadaNew}>{t("hr")}</p>
-            <p className={css.nameNameNew}>{t("jakistName")}</p>
-            <p className={css.phoneDNew}>
-              <MdLocalPhone className={css.mdLocalPhoneNew} />
-              +380667556778
-            </p>
-            <p className={css.phoneDNew}>
-              <MdEmail className={css.mdLocalPhoneNew} />
-              kea.avator@gmail.com
-            </p>
-          </div>
-        </div>
-      </div>
+    <div className={css.personLinks}>
+      {person.phone && (
+        <a href={`tel:${person.phone}`}>
+          <MdLocalPhone aria-hidden="true" />
+          <span>{person.phone.replace(/^(\+38)(0\d{2})(\d{3})(\d{2})(\d{2})$/, "$1 ($2) $3 $4 $5")}</span>
+        </a>
+      )}
+      <a href={`mailto:${person.email}`}><MdEmail aria-hidden="true" /><span>{person.email}</span></a>
     </div>
   );
-};
-export default FirstBlockContact;
+}
+
+export default function FirstBlockContact({ t, lng }) {
+  const copy = contactCopy(lng);
+  return (
+    <main className={css.container}>
+      <nav className={css.breadcrumbs} aria-label={copy.breadcrumbs}>
+        <ol>
+          <li><Link href={`/${lng}`}>{t("mainLink")}</Link></li>
+          <li><LuChevronRight aria-hidden="true" /><span aria-current="page">{t("contacts")}</span></li>
+        </ol>
+      </nav>
+      <div className={css.heading}>
+        <h1>{t("contacts")}</h1>
+        <p>{copy.intro}</p>
+      </div>
+      <div className={css.contactLayout}>
+        <LocalInform t={t} />
+        <section className={css.mapCard} aria-labelledby="contact-map-title">
+          <div className={css.mapHeading}>
+            <h2 id="contact-map-title">{t("roztashuvania")}</h2>
+            <a className={css.directions} href={directionsUrl} target="_blank" rel="noopener noreferrer">
+              {copy.directions}<LuArrowUpRight aria-hidden="true" />
+            </a>
+          </div>
+          <div className={css.mapArea}><Map title={t("roztashuvania")} /></div>
+        </section>
+      </div>
+      <section className={css.teamSection} aria-labelledby="contact-team-title">
+        <h2 id="contact-team-title" className={css.sectionTitle}>{t("ourTeam")}</h2>
+        <article className={css.directorCard}>
+          <Image src={directorInsortex} alt={t(director.name)} className={css.portrait} sizes="(max-width: 700px) 80px, 128px" />
+          <div className={css.directorCopy}>
+            <p className={css.role}>{t(director.role)}</p>
+            <h3>{t(director.name)}</h3>
+          </div>
+          <ContactLinks person={director} />
+        </article>
+        <div className={css.teamGrid}>
+          {team.map(person => (
+            <article className={css.personCard} key={person.email}>
+              <p className={css.role}>{t(person.role)}</p>
+              <h3>{t(person.name)}</h3>
+              <ContactLinks person={person} />
+            </article>
+          ))}
+        </div>
+      </section>
+    </main>
+  );
+}
