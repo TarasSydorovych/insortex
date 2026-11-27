@@ -1,265 +1,94 @@
-.wrapContact {
+.page {
+  --contact-ink: #142638;
+  --contact-muted: #5b6a79;
+  --contact-line: #dbe2e9;
+  --contact-gutter: clamp(1rem, 1.65vw, 2rem);
   width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: white;
-}
-.wrapMapWith {
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.pContackMail {
-  font-family: "Pragmatica Cond", sans-serif;
-  color: #042037;
-  font-size: 50px;
-  margin-top: 50px;
-  margin-bottom: 40px;
-}
-.wrapMainContact {
-  width: 50%;
-  height: auto;
-  display: flex;
-
-  flex-direction: column;
-  align-items: flex-start;
-}
-.localInformWrap {
-  width: auto;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-left: 100px;
-}
-.wrapInformationsI {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 40px;
-}
-.pAdress {
-  font-family: "Pragmatica Cond", sans-serif;
-  font-size: 30px;
-  color: #27214f;
-}
-.aHome {
-  flex-shrink: 0;
-  font-size: 40px;
-  color: #27214f;
-  margin-right: 20px;
-}
-.greyDesc {
-  font-family: "Pragmatica Cond", sans-serif;
-  font-size: 20px;
-  color: #7a7a7a;
-  margin-top: 10px;
-}
-.usersContact {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 50px;
-  padding-bottom: 100px;
-}
-.wrapOneUser {
-  width: 340px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  padding: 20px; /* Відступи всередині рамки */
-
-  border-radius: 15px; /* Закруглені кути */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Тінь */
-  background-color: #f9f9f9; /* Фоновий колір */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.wrapOneUser:hover {
-  transform: translateY(-5px); /* Піднімає блок при наведенні */
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15); /* Більша тінь при наведенні */
-}
-.imageUsers {
-  width: 300px;
-  height: auto;
+  background: #f3f5f8;
+  color: var(--contact-ink);
+  color-scheme: light;
 }
 
-.namePosada {
-  font-family: "Pragmatica Cond", sans-serif;
-  color: #042037;
-  margin-top: 10px;
-  font-size: 25px;
-  text-align: center;
-}
-.namePosadaNew {
-  font-family: "Pragmatica Cond", sans-serif;
-  color: #042037;
-  margin-top: 10px;
-  font-size: 15px;
-  text-align: center;
-  text-align: center;
-}
-.nameName {
-  font-family: "Pragmatica Cond", sans-serif;
-  color: #042037;
-  margin-top: 10px;
-  font-size: 25px;
-  text-align: center;
-}
-.nameNameNew {
-  font-family: "Pragmatica Cond", sans-serif;
-  color: #042037;
-  margin-top: 10px;
-  font-size: 15px;
-  text-align: center;
-}
-.phoneD {
-  font-family: "Pragmatica Cond", sans-serif;
-  color: #042037;
-  margin-top: 10px;
-  font-size: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.phoneDNew {
-  font-family: "Pragmatica Cond", sans-serif;
-  color: #042037;
-  margin-top: 10px;
-  font-size: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.mdLocalPhone {
-  margin-right: 10px;
-}
-.mdLocalPhoneNew {
-  margin-right: 10px;
-}
-.wrapAllContact {
-  width: 1200px;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 150px;
-  flex-wrap: wrap;
-  margin-top: 80px;
-}
-.wrapOneUserNotNew {
-  width: 240px;
-  height: 572px;
-  display: flex;
-  flex-direction: column;
-  padding: 20px; /* Відступи всередині рамки */
+.container { width: calc(100% - 2 * var(--contact-gutter)); margin-inline: auto; padding-bottom: clamp(3rem, 5vw, 5rem); }
+.container :focus-visible { outline: 2px solid #456f97; outline-offset: 4px; }
+.breadcrumbs { padding-top: 1.4rem; color: var(--contact-muted); font-size: .82rem; line-height: 1.5; }
+.breadcrumbs ol { display: flex; flex-wrap: wrap; gap: .6rem; list-style: none; }
+.breadcrumbs li { display: flex; align-items: center; gap: .6rem; }
+.breadcrumbs svg { width: .8rem; }
+.breadcrumbs [aria-current] { color: var(--contact-ink); }
+.breadcrumbs a:hover { text-decoration: underline; text-underline-offset: .2em; }
+.heading { padding-block: 1.6rem 2.1rem; }
+.heading h1 { font-size: clamp(2rem, 3.3vw, 3.4rem); line-height: 1.13; letter-spacing: -.045em; }
+.heading p { max-width: 43rem; margin-top: .85rem; color: var(--contact-muted); font-size: clamp(.95rem, 1.3vw, 1.1rem); line-height: 1.6; text-wrap: pretty; }
 
-  border-radius: 15px; /* Закруглені кути */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Тінь */
-  background-color: #f9f9f9; /* Фоновий колір */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.wrapOneUserNotNew:hover {
-  transform: translateY(-5px); /* Піднімає блок при наведенні */
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15); /* Більша тінь при наведенні */
-}
-.imageUsersNew {
-  width: 200px;
-  height: 390px;
-  object-fit: cover;
-}
-.wrapIconForNum {
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 30px;
-  margin-top: 15px;
-}
-.faViber {
-  font-size: 50px;
-  color: #7360f2;
-}
-.aWhatsapp {
-  font-size: 50px;
-  color: #26d366;
-}
-.aTelegramPlane {
-  font-size: 50px;
-  color: #239cd8;
-}
-@media only screen and (max-width: 479px) and (min-width: 300px) {
-  .wrapMapWith {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .localInformWrap {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 0px;
-  }
-}
-@media only screen and (max-width: 700px) and (min-width: 479px) {
-  .wrapMapWith {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .localInformWrap {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 0px;
-  }
-}
+.contactLayout { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.4fr); gap: clamp(1rem, 1.5vw, 1.5rem); align-items: stretch; }
+.contactPanel { min-width: 0; padding: clamp(1.3rem, 2.6vw, 2.5rem); border-radius: .9rem; background: #0a1725; color: #edf3f9; }
+.contactPanel h2 { color: #fff; font-size: clamp(1.3rem, 1.8vw, 1.65rem); line-height: 1.3; letter-spacing: -.025em; }
+.contactPanel :focus-visible { outline-color: #b3d2ef; }
+.primaryContact { margin-block: 1.5rem; }
+.detailLabel { margin-bottom: .35rem; color: #b0c4d6; font-size: .8rem; line-height: 1.45; }
+.mainPhone { display: inline-block; font-size: clamp(1.4rem, 2.1vw, 2rem); font-weight: 650; line-height: 1.3; letter-spacing: -.035em; }
+.details { display: grid; gap: 1.15rem; padding-block: 1.25rem; border-block: 1px solid #ffffff26; }
+.detailRow { display: flex; align-items: flex-start; gap: .85rem; }
+.detailRow > svg { flex: 0 0 1.15rem; width: 1.15rem; height: 1.15rem; margin-top: .15rem; color: #b0c9e2; }
+.detailRow > div { min-width: 0; }
+.detailRow address { font-style: normal; }
+.detailRow :is(a, address, p:not(.detailLabel)) { font-size: .94rem; line-height: 1.55; overflow-wrap: anywhere; }
+.contactPanel a:hover { color: #c4d9ed; }
+.detailRow a:hover { text-decoration: underline; text-underline-offset: .2em; }
+.messengers { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.3rem; }
+.messengers a { display: inline-flex; align-items: center; justify-content: center; gap: .45rem; min-height: 2.75rem; padding: .55rem .7rem; border: 1px solid #cfdfef4a; border-radius: .5rem; font-size: .81rem; }
+.messengers svg { width: 1.05rem; height: 1.05rem; flex-shrink: 0; }
+.messengers a:hover { background: #ffffff12; }
 
-@media only screen and (max-width: 960px) and (min-width: 700px) {
-  .wrapMapWith {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .localInformWrap {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 0px;
-  }
+.mapCard { display: flex; flex-direction: column; min-width: 0; overflow: hidden; border: 1px solid var(--contact-line); border-radius: .9rem; background: #fff; }
+.mapHeading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .75rem 1rem; padding: 1.2rem 1.3rem; }
+.mapHeading h2 { font-size: 1.06rem; line-height: 1.4; letter-spacing: -.02em; }
+.directions { display: inline-flex; align-items: center; gap: .4rem; min-height: 2.6rem; padding: .5rem .75rem; border: 1px solid var(--contact-line); border-radius: .5rem; color: #254764; font-size: .84rem; font-weight: 600; }
+.directions:hover { background: #edf2f7; border-color: #8ca6c0; }
+.directions svg { flex: 0 0 1rem; }
+.mapArea { position: relative; flex: 1; min-height: 22rem; background: #e4e9ee; }
+.mapFrame { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+.teamSection { padding-top: clamp(2.8rem, 4.5vw, 4.5rem); }
+.sectionTitle { margin-bottom: 1.4rem; font-size: clamp(1.65rem, 2.7vw, 2.6rem); line-height: 1.18; letter-spacing: -.04em; }
+.directorCard { display: grid; grid-template-columns: 8rem minmax(0, 1fr) minmax(13rem, .65fr); align-items: center; gap: clamp(1rem, 2vw, 2rem); padding: clamp(1rem, 2vw, 1.8rem); border: 1px solid var(--contact-line); border-radius: .85rem; background: #fff; }
+.portrait { width: 100%; height: 9rem; object-fit: cover; object-position: center 24%; border-radius: .6rem; }
+.directorCopy { min-width: 0; }
+.role { color: var(--contact-muted); font-size: .83rem; line-height: 1.5; overflow-wrap: anywhere; }
+.directorCopy h3 { margin-top: .45rem; font-size: clamp(1.25rem, 1.8vw, 1.7rem); line-height: 1.3; letter-spacing: -.025em; overflow-wrap: anywhere; }
+.teamGrid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1rem, 1.5vw, 1.5rem); margin-top: clamp(1rem, 1.5vw, 1.5rem); }
+.personCard { display: flex; flex-direction: column; min-width: 0; padding: clamp(1.1rem, 1.8vw, 1.7rem); border: 1px solid var(--contact-line); border-radius: .85rem; background: #fff; }
+.personCard .role { min-height: 3em; }
+.personCard h3 { margin-block: .6rem 1.25rem; font-size: clamp(1.05rem, 1.35vw, 1.2rem); line-height: 1.4; letter-spacing: -.02em; overflow-wrap: anywhere; }
+.personLinks { display: grid; gap: .3rem; min-width: 0; }
+.personCard .personLinks { margin-top: auto; padding-top: .85rem; border-top: 1px solid #e6ecf2; }
+.personLinks a { display: flex; align-items: center; gap: .55rem; min-height: 2.5rem; color: #254764; font-size: .86rem; line-height: 1.5; }
+.personLinks svg { flex: 0 0 1rem; width: 1rem; height: 1rem; color: #607e98; }
+.personLinks span { min-width: 0; overflow-wrap: anywhere; }
+.personLinks a:hover { color: #0a1725; text-decoration: underline; text-underline-offset: .2em; }
+
+@media (max-width: 1150px) {
+  .teamGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
-@media only screen and (max-width: 1200px) and (min-width: 960px) {
+@media (max-width: 900px) {
+  .contactLayout { grid-template-columns: minmax(0, 1fr); }
+  .mapArea { min-height: 24rem; }
 }
-@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+@media (max-width: 700px) {
+  .directorCard { grid-template-columns: 5rem minmax(0, 1fr); }
+  .portrait { height: 6rem; }
+  .directorCard .personLinks { grid-column: 1 / -1; padding-top: .8rem; border-top: 1px solid #e6ecf2; }
 }
-@media only screen and (max-width: 1600px) and (min-width: 1400px) {
+@media (max-width: 570px) {
+  .heading { padding-block: 1.2rem 1.5rem; }
+  .breadcrumbs { padding-top: 1rem; font-size: .75rem; }
+  .contactPanel { padding: 1.3rem; }
+  .mainPhone { font-size: clamp(1.35rem, 6vw, 1.65rem); }
+  .mapHeading { padding: 1rem; }
+  .mapArea { min-height: 20rem; }
+  .teamGrid { grid-template-columns: minmax(0, 1fr); }
+  .personCard .role { min-height: 0; }
+  .personCard h3 { font-size: 1.15rem; }
+  .personLinks a { font-size: .91rem; min-height: 2.75rem; }
 }

@@ -1,0 +1,587 @@
+[
+  {
+    "_id": "6724c39a34ca0556e4ce8fe1",
+    "name": {
+      "ua": "Сепаратор плодоніжки",
+      "en": "Stem Separator",
+      "ru": "Сепаратор плодоножек",
+      "pl": "Separator szypułek"
+    }
+  },
+  {
+    "_id": "6724c4b334ca0556e4ce923f",
+    "name": {
+      "ua": "Мийка ящиків",
+      "en": "Box Washer",
+      "ru": "Мойка ящиков",
+      "pl": "Myjka do skrzynek"
+    }
+  },
+  {
+    "_id": "6724effc34ca0556e4ce968e",
+    "name": {
+      "ua": "Інспекційний конвеєр",
+      "en": "Inspection Conveyor",
+      "ru": "Инспекционный конвейер",
+      "pl": "Przenośnik inspekcyjny"
+    }
+  },
+  {
+    "_id": "6729ea86ced3f55ef81dc86f",
+    "name": {
+      "ua": "Протиральна машина",
+      "en": "Pulping Machine",
+      "ru": "Протирочная машина",
+      "pl": "Maszyna przecierowa"
+    }
+  },
+  {
+    "_id": "6729f3b2ced3f55ef81dc8fd",
+    "name": {
+      "ua": "Похилий конвеєр для подачі продукції на задану висоту",
+      "en": "Inclined conveyor for feeding products to a specified height.",
+      "ru": "Наклонный конвейер для подачи продукции на заданную высоту",
+      "pl": "Pochyły przenośnik do podawania produktów na określoną wysokość."
+    }
+  },
+  {
+    "_id": "6729f6b7ced3f55ef81dc948",
+    "name": {
+      "ua": "Сміттєсортувальна лінія",
+      "en": "Waste Sorting Line",
+      "ru": "Сортировочная линия для отходов",
+      "pl": "Linia sortowania odpadów"
+    }
+  },
+  {
+    "_id": "6729ffbbced3f55ef81dcb2b",
+    "name": {
+      "ua": "Дворівневе вібросито для обліпихи",
+      "en": "Two-Level Vibrating Sieve for Sea Buckthorn",
+      "ru": "Двухуровневое вибросито для облепихи",
+      "pl": "Dwupoziomowe sito wibracyjne do rokitnika"
+    }
+  },
+  {
+    "_id": "672a040eced3f55ef81dcb95",
+    "name": {
+      "ua": "Перекидач контейнерів",
+      "en": "Container Tilter",
+      "ru": "Опрокидыватель контейнеров",
+      "pl": "Przechylacz kontenerów"
+    }
+  },
+  {
+    "_id": "672a08c3ced3f55ef81dcc6b",
+    "name": {
+      "ua": "Сепаратор плодоніжки з барабаном, що обертається",
+      "en": "Stem Separator with Rotating Drum",
+      "ru": "Сепаратор плодоножки с вращающимся барабаном",
+      "pl": "Separator szypułek z obrotowym bębnem"
+    }
+  },
+  {
+    "_id": "672a11adced3f55ef81dce2a",
+    "name": {
+      "ua": "Лінія сортування замороженої обліпихи",
+      "en": "Frozen Sea Buckthorn Sorting Line",
+      "ru": "Линия сортировки замороженной облепихи",
+      "pl": "Linia sortowania mrożonego rokitnika"
+    }
+  },
+  {
+    "_id": "672a4145ced3f55ef81dcfa0",
+    "name": {
+      "ua": "Вібровіялка",
+      "en": "Vibration Cleaner",
+      "ru": "Вибровеялка",
+      "pl": "Wialnia wibracyjna"
+    }
+  },
+  {
+    "_id": "672ca18525735a2fb3e3a6a1",
+    "name": {
+      "ua": "Конвеєр з осушкою",
+      "en": "Conveyor with Dehydration",
+      "ru": "Конвейер с осушкой",
+      "pl": "Przenośnik z osuszaniem"
+    }
+  },
+  {
+    "_id": "672cd62725735a2fb3e3a76f",
+    "name": {
+      "ua": "Дворівневе вібросито для малини",
+      "en": "Two-Level Vibrating Sieve for Raspberries",
+      "ru": "Двухуровневое вибросито для малины",
+      "pl": "Dwupoziomowe sito wibracyjne do malin"
+    }
+  },
+  {
+    "_id": "672dc32225735a2fb3e3a91a",
+    "name": {
+      "ua": "Калібратор зубчиків часнику",
+      "en": "Garlic Clove Calibrator",
+      "ru": "Калибратор зубчиков чеснока",
+      "pl": "Kalibrator ząbków czosnku"
+    }
+  },
+  {
+    "_id": "672dcd6125735a2fb3e3aac1",
+    "name": {
+      "ua": "Барабанна мийка для овочів",
+      "en": "Drum Vegetable Washer",
+      "ru": "Барабанная мойка для овощей",
+      "pl": "Myjka bębnowa do warzyw"
+    }
+  },
+  {
+    "_id": "672dd254594fc61eeaf872f7",
+    "name": {
+      "ua": "Розбрилювач",
+      "en": "Crusher",
+      "ru": "Дробилка",
+      "pl": "Kruszarka"
+    }
+  },
+  {
+    "_id": "672ddb9a594fc61eeaf875a9",
+    "name": {
+      "ua": "Сепаратор плодоніжки з обертаючимися барабаном",
+      "en": "Stem Separator with Rotating Drum",
+      "ru": "Сепаратор плодоножки с вращающимся барабаном",
+      "pl": "Separator szypułek z obrotowym bębnem"
+    }
+  },
+  {
+    "_id": "672de21c594fc61eeaf8771c",
+    "name": {
+      "ua": "Шнековий транспортер (податчик для ягід)",
+      "en": "Screw Conveyor (Feeder for Berries)",
+      "ru": "Шнековый транспортер (подачник для ягод)",
+      "pl": "Przenośnik Śrubowy (Podajnik do Jagód)"
+    }
+  },
+  {
+    "_id": "672df298594fc61eeaf87839",
+    "name": {
+      "ua": "Щіткова мийка для полуниці і грибів",
+      "en": "Brush Washer for Strawberries and Mushrooms",
+      "ru": "Щеточная мойка для клубники и грибов",
+      "pl": "Myjka szczotkowa do truskawek i grzybów"
+    }
+  },
+  {
+    "_id": "672dff51594fc61eeaf8796a",
+    "name": {
+      "ua": "Конвеєр з металодетектором",
+      "en": "Conveyor with Metal Detector",
+      "ru": "Конвейер с металлоискателем",
+      "pl": "Przenośnik z wykrywaczem metalu"
+    }
+  },
+  {
+    "_id": "672e0442594fc61eeaf87bf8",
+    "name": {
+      "ua": "Лінія мийки та маринування грибів",
+      "en": "Mushroom Washing and Marinating Line",
+      "ru": "Линия мойки и маринования грибов",
+      "pl": "Linia mycia i marynowania grzybów"
+    }
+  },
+  {
+    "_id": "672e086c594fc61eeaf87d39",
+    "name": {
+      "ua": "Каскадне вібросито",
+      "en": "Cascade Vibrating Sieve",
+      "ru": "Каскадное Вибросито",
+      "pl": "Wibracyjny Separator Kaskadowy"
+    }
+  },
+  {
+    "_id": "672e0c8e594fc61eeaf87e91",
+    "name": {
+      "ua": "Щіткова мийка для овочів та корнеплодів",
+      "en": "Brush Washer for Vegetables and Root Crops",
+      "ru": "Щеточная мойка для овощей и корнеплодов",
+      "pl": "Myjka szczotkowa do warzyw i roślin okopowych"
+    }
+  },
+  {
+    "_id": "672e118c594fc61eeaf87fe4",
+    "name": {
+      "ua": "Лінія сортування та обробки чорниці",
+      "en": "Blueberry Sorting and Processing Line",
+      "ru": "Линия сортировки и обработки черники",
+      "pl": "Linia do sortowania i przetwarzania borówek"
+    }
+  },
+  {
+    "_id": "672e1c08594fc61eeaf88352",
+    "name": {
+      "ua": "Інспекційний конвеєр з поліуретановою стрічкою",
+      "en": "Inspection conveyor with polyurethane belt",
+      "ru": "Инспекционный конвейер с полиуретановой лентой",
+      "pl": "Inspekcyjny przenośnik z poliuretanową taśmą"
+    }
+  },
+  {
+    "_id": "672e2665594fc61eeaf88655",
+    "name": {
+      "ua": "Полірувальник для ягоди",
+      "en": "Polisher for Berries",
+      "ru": "Полировщик для ягод",
+      "pl": "Polerka do jagód"
+    }
+  },
+  {
+    "_id": "672e2d74594fc61eeaf88b11",
+    "name": {
+      "ua": "Барботажна мийка(тип 1)",
+      "en": "Bubble Washer (Type 1)",
+      "ru": "Барботажная мойка (тип 1)",
+      "pl": "Barbotażowa myjka (typ 1)"
+    }
+  },
+  {
+    "_id": "672e43f7594fc61eeaf89603",
+    "name": {
+      "ua": "Конвеєр для поштових посилок",
+      "en": "Conveyor for Postal Packages",
+      "ru": "Конвейер для почтовых посылок",
+      "pl": "Taśma transportowa dla przesyłek pocztowych"
+    }
+  },
+  {
+    "_id": "673c51350da4bc413f28046a",
+    "name": {
+      "ua": "Калібратор для полуниці",
+      "en": "Strawberry Calibrator",
+      "ru": "Калибратор для клубники",
+      "pl": "Kalibrator do truskawek"
+    }
+  },
+  {
+    "_id": "673c5a190da4bc413f2807fb",
+    "name": {
+      "ua": "Смітєсортувальна лінія (лінія сортування твердих побутових відходів та опалого листя)",
+      "en": "Waste Sorting Line (Sorting Line for Solid Household Waste and Fallen Leaves)",
+      "ru": "Линия сортировки мусора (Линия для сортировки твердых бытовых отходов и опавшей листвы)",
+      "pl": "Linia sortowania odpadów (Linia do sortowania odpadów komunalnych i liści)"
+    }
+  },
+  {
+    "_id": "673c64da0da4bc413f2809c4",
+    "name": {
+      "ua": "Автоматизована сушка гарбузового насіння",
+      "en": "Automated Pumpkin Seed Drying",
+      "ru": "Автоматизированная сушка тыквенных семечек",
+      "pl": "Zautomatyzowane suszenie pestek dyni"
+    }
+  },
+  {
+    "_id": "673c6b0e0da4bc413f280d5f",
+    "name": {
+      "ua": "Зварювальний стіл",
+      "en": "Welding Table",
+      "ru": "Сварочный стол",
+      "pl": "Stół spawalniczy"
+    }
+  },
+  {
+    "_id": "673c70c00da4bc413f280f2c",
+    "name": {
+      "ua": "Інспекційний конвеєр з модульною стрічкою",
+      "en": "Inspection Conveyor with Modular Belt",
+      "ru": "Инспекционный конвейер с модульной лентой",
+      "pl": "Inspekcyjny przenośnik z taśmą modułową"
+    }
+  },
+  {
+    "_id": "673c76290da4bc413f281116",
+    "name": {
+      "ua": "ВІДОКРЕМЛЮВАЧ ГІЛОК ДЛЯ ОБЛІПИХИ",
+      "en": "SEA BUCKTHORN BRANCH SEPARATOR",
+      "ru": "ОТДЕЛИТЕЛЬ ВЕТОК ДЛЯ ОБЛЕПИХИ",
+      "pl": "ODDZIELACZ GAŁĘZI DLA ROKITNIKA"
+    }
+  },
+  {
+    "_id": "673c79e50da4bc413f281311",
+    "name": {
+      "ua": "Змішувач",
+      "en": "Mixer",
+      "ru": "Смеситель",
+      "pl": "Mikser"
+    }
+  },
+  {
+    "_id": "673c98e40da4bc413f281d36",
+    "name": {
+      "ua": "Дробарка для овочів",
+      "en": "Vegetable Crusher",
+      "ru": "Дробилка для овощей",
+      "pl": "Rozdrabniarka do warzyw"
+    }
+  },
+  {
+    "_id": "673c9db10da4bc413f282343",
+    "name": {
+      "ua": "Дворівневий калібратор для обліпихи",
+      "en": "Two-Level Sea Buckthorn Calibrator",
+      "ru": "Двухуровневый калибратор для облепихи",
+      "pl": "Dwupoziomowy kalibrator do rokitnika"
+    }
+  },
+  {
+    "_id": "673ca4a70da4bc413f28254e",
+    "name": {
+      "ua": "Вакуумний маринатор для мʼяса",
+      "en": "Vacuum Marinator for Meat",
+      "ru": "Вакуумный маринатор для мяса",
+      "pl": "Próżniowy marynator do mięsa"
+    }
+  },
+  {
+    "_id": "673ca7920da4bc413f28296d",
+    "name": {
+      "ua": "Відокремлювач Зеленої Кожури для Волоського Горіху",
+      "en": "Green Husk Separator for Walnuts",
+      "ru": "Отделитель Зеленой Шелухи для Грецкого Ореха",
+      "pl": "Separator Zielonej Łupiny do Orzechów Włoskich"
+    }
+  },
+  {
+    "_id": "673cad4b0da4bc413f282b7c",
+    "name": {
+      "ua": "Вібросито Ядра Волоського Горіха",
+      "en": "Walnut Kernel Calibrator",
+      "ru": "Калибратор Ядра Грецкого Ореха",
+      "pl": "Kalibrator Jądra Orzecha Włoskiego"
+    }
+  },
+  {
+    "_id": "673cb52b0da4bc413f282d8d",
+    "name": {
+      "ua": "Сушка Волоського Горіха",
+      "en": "Walnut Kernel Calibrator",
+      "ru": "Калибратор Ядра Грецкого Ореха",
+      "pl": "Kalibrator Jądra Orzecha Włoskiego"
+    }
+  },
+  {
+    "_id": "673cb65c0da4bc413f282fa0",
+    "name": {
+      "ua": "Калібратор Ядра Волоського Горіха",
+      "en": "Walnut Drying Machine for Whole Nuts",
+      "ru": "Сушка для Грецкого Ореха в Шелухе",
+      "pl": "Suszarka do Orzecha Włoskiego w Całości"
+    }
+  },
+  {
+    "_id": "673cb72e0da4bc413f2831b5",
+    "name": {
+      "ua": "Калібратор для Равликів",
+      "en": "Snail Calibrator",
+      "ru": "Калибратор для Улиток",
+      "pl": " Kalibrator do Ślimaków"
+    }
+  },
+  {
+    "_id": "673cb8880da4bc413f2833d0",
+    "name": {
+      "ua": "Бланшувач",
+      "en": "Blancher",
+      "ru": "Бланшировщик",
+      "pl": "Blanszownik"
+    }
+  },
+  {
+    "_id": "673cb9560da4bc413f2835e9",
+    "name": {
+      "ua": "Польова кухня",
+      "en": "Field Kitchen",
+      "ru": "Полевая Кухня",
+      "pl": "Kuchnia Polowa"
+    }
+  },
+  {
+    "_id": "673cba340da4bc413f283a1c",
+    "name": {
+      "ua": "Булерʼян",
+      "en": "Bullerjan",
+      "ru": "Булерьян",
+      "pl": "Bullerjan"
+    }
+  },
+  {
+    "_id": "673cbb150da4bc413f283c39",
+    "name": {
+      "ua": "Ємності з харчової нержавіючої сталі",
+      "en": "Food-Grade Stainless Steel Tanks",
+      "ru": "Емкости из пищевой нержавеющей стали",
+      "pl": "Zbiorniki z nierdzewnej stali spożywczej"
+    }
+  },
+  {
+    "_id": "673cbc040da4bc413f283e58",
+    "name": {
+      "ua": "Пічки",
+      "en": "Stoves",
+      "ru": "Печки",
+      "pl": "Piece"
+    }
+  },
+  {
+    "_id": "673cbcd30da4bc413f284079",
+    "name": {
+      "ua": "Норійні ковші з нержавіючої сталі",
+      "en": "Stainless Steel Elevator Buckets",
+      "ru": "Норийные ковши из нержавеющей стали",
+      "pl": "Kubełki ze stali nierdzewnej do przenośników kubełkowych"
+    }
+  },
+  {
+    "_id": "673cbdc30da4bc413f28429c",
+    "name": {
+      "ua": "Столи для обробки мʼяса",
+      "en": "Meat Processing Tables",
+      "ru": "Столы для обработки мяса",
+      "pl": "Stoły do obróbki mięsa"
+    }
+  },
+  {
+    "_id": "673cbeeb0da4bc413f2844c1",
+    "name": {
+      "ua": "Дробарка для малини - Грицовнік",
+      "en": "Raspberry Crusher - Gritsovnik",
+      "ru": "Дробилка для малины - Грицовник",
+      "pl": "Kruszarka do malin - Gritsovnik"
+    }
+  },
+  {
+    "_id": "6aa3e00dfbfb9bdcdca97ac2",
+    "name": {
+      "ua": "Конвеєр із металодетектором з автоматичним відбракуванням продукту",
+      "en": "Conveyor with metal detector and automatic product rejection",
+      "ru": "Конвейер с металлодетектором с автоматическим отбраковкой продукта",
+      "pl": "Taśmociąg z detektorem metalu i automatycznym odrzucaniem produktu"
+    }
+  },
+  {
+    "_id": "6aead990f685fc3442b032b8",
+    "name": {
+      "ua": "Конвеєри для транспортування тари",
+      "en": "Conveyors for transporting containers",
+      "ru": "Конвейеры для транспортировки тары",
+      "pl": "Przenośniki do transportu kontenerów"
+    }
+  },
+  {
+    "_id": "6aec59ddf685fc3442b3763f",
+    "name": {
+      "ua": "Лінія для лаврового листа",
+      "en": "Bay leaf processing line",
+      "ru": "Линия для лаврового листа",
+      "pl": "Przenośniki do transportu kontenerów"
+    }
+  },
+  {
+    "_id": "6aecccd8f685fc3442b51acb",
+    "name": {
+      "ua": "Шпарчан для бройлерів",
+      "en": "Scalding tank for broilers",
+      "ru": "Шпарчан для бройлеров",
+      "pl": "Pasza dla brojlerów"
+    }
+  },
+  {
+    "_id": "6af1c7a3f685fc3442be9496",
+    "name": {
+      "ua": "Лінія калібрування та автоматичного зважування лохини",
+      "en": "Blueberry grading and automatic weighing line",
+      "ru": "Линия калибровки и автоматического взвешивания голубики",
+      "pl": "Linia do kalibracji i automatycznego ważenia borówek"
+    }
+  },
+  {
+    "_id": "6af1da98f685fc3442becc2b",
+    "name": {
+      "ua": "Віброплатформа для малини",
+      "en": "Vibration platform for raspberries",
+      "ru": "Виброплатформа для малины",
+      "pl": "Platforma wibracyjna do malin"
+    }
+  },
+  {
+    "_id": "6af1e01cf685fc3442bee4af",
+    "name": {
+      "ua": "Бланшувач для овочів",
+      "en": "Blancher",
+      "ru": "Бланшировщик",
+      "pl": "Blancher"
+    }
+  },
+  {
+    "_id": "6af1ee93f685fc3442bf0fa8",
+    "name": {
+      "ua": "Віялка для свіжих та заморожених ягід із конвеєрною подачею",
+      "en": "Winnowing machine for fresh and frozen berries with conveyor feed",
+      "ru": "Веялки для свежих и замороженных ягод с конвейерной подачей",
+      "pl": "Dmuchawa do świeżych i mrożonych jagód z przenośnikiem taśmowym"
+    }
+  },
+  {
+    "_id": "6af44224f685fc3442c2f107",
+    "name": {
+      "ua": "Дворівневий інспекційний конвеєр",
+      "en": "Two-level inspection conveyor",
+      "ru": "Двухуровневый инспекционный конвейер",
+      "pl": "Przenośnik inspekcyjny dwupoziomowy"
+    }
+  },
+  {
+    "_id": "6af464b6f685fc3442c32c6b",
+    "name": {
+      "ua": "Стрічковий дозатор ",
+      "en": "Belt feeder",
+      "ru": "Ленточный дозатор",
+      "pl": "Dozownik taśmy"
+    }
+  },
+  {
+    "_id": "6af4957cf685fc3442c36e81",
+    "name": {
+      "ua": "Лінія первинної обробки обліпихи",
+      "en": "Sea buckthorn primary processing line",
+      "ru": "Линия первичной обработки облепихи",
+      "pl": "Linia do wstępnego przetwarzania rokitnika"
+    }
+  },
+  {
+    "_id": "6af49f27f685fc3442c37e06",
+    "name": {
+      "ua": "Машина автоматичного розливу bag-in-box",
+      "en": "Automatic bag-in-box filling machine",
+      "ru": "Машина автоматического разлива bag-in-box",
+      "pl": "Automatyczna maszyna do napełniania worków w pudełkach"
+    }
+  },
+  {
+    "_id": "6afd481156a6aeb864eac549",
+    "name": {
+      "ua": "Калібратор лохини",
+      "en": "Blueberry Sizer",
+      "ru": "Калибратор голубики",
+      "pl": "Kalibrator borówki"
+    }
+  },
+  {
+    "_id": "6afd6ffb56a6aeb864ec06f2",
+    "name": {
+      "ua": "Пасіковий калібратор",
+      "en": "Apiary Calibrator",
+      "ru": "Пасековый калибратор",
+      "pl": "Kalibrator pasieczny"
+    }
+  }
+]
