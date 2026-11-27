@@ -53,11 +53,11 @@
 .teamSection { padding-top: clamp(2.8rem, 4.5vw, 4.5rem); }
 .sectionTitle { margin-bottom: 1.4rem; font-size: clamp(1.65rem, 2.7vw, 2.6rem); line-height: 1.18; letter-spacing: -.04em; }
 .directorCard { display: grid; grid-template-columns: 8rem minmax(0, 1fr) minmax(13rem, .65fr); align-items: center; gap: clamp(1rem, 2vw, 2rem); padding: clamp(1rem, 2vw, 1.8rem); border: 1px solid var(--contact-line); border-radius: .85rem; background: #fff; }
-.portrait { width: 100%; height: 9rem; object-fit: cover; object-position: center 24%; border-radius: .6rem; }
+.portrait { width: 100%; height: 9rem; object-fit: cover; object-position: 86% center; border-radius: .6rem; }
 .directorCopy { min-width: 0; }
 .role { color: var(--contact-muted); font-size: .83rem; line-height: 1.5; overflow-wrap: anywhere; }
 .directorCopy h3 { margin-top: .45rem; font-size: clamp(1.25rem, 1.8vw, 1.7rem); line-height: 1.3; letter-spacing: -.025em; overflow-wrap: anywhere; }
-.teamGrid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1rem, 1.5vw, 1.5rem); margin-top: clamp(1rem, 1.5vw, 1.5rem); }
+.teamGrid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-auto-rows: 1fr; gap: clamp(1rem, 1.5vw, 1.5rem); margin-top: clamp(1rem, 1.5vw, 1.5rem); }
 .personCard { display: flex; flex-direction: column; min-width: 0; padding: clamp(1.1rem, 1.8vw, 1.7rem); border: 1px solid var(--contact-line); border-radius: .85rem; background: #fff; }
 .personCard .role { min-height: 3em; }
 .personCard h3 { margin-block: .6rem 1.25rem; font-size: clamp(1.05rem, 1.35vw, 1.2rem); line-height: 1.4; letter-spacing: -.02em; overflow-wrap: anywhere; }
@@ -87,7 +87,7 @@
   .mainPhone { font-size: clamp(1.35rem, 6vw, 1.65rem); }
   .mapHeading { padding: 1rem; }
   .mapArea { min-height: 20rem; }
-  .teamGrid { grid-template-columns: minmax(0, 1fr); }
+  .teamGrid { grid-template-columns: minmax(0, 1fr); grid-auto-rows: auto; }
   .personCard .role { min-height: 0; }
   .personCard h3 { font-size: 1.15rem; }
   .personLinks a { font-size: .91rem; min-height: 2.75rem; }

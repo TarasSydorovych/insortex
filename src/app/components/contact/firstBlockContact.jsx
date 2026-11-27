@@ -14,9 +14,7 @@ const director = {
 const team = [
   { role: "saleComercia", name: "saleOneInsortex", phone: "+380668085626", email: "insortex.viktor@gmail.com" },
   { role: "postach", name: "postachName", phone: "+380665464409", email: "maksym.insortex@gmail.com" },
-  { role: "construktor", name: "constructorName", phone: "+380997717887", email: "gurina.insortex@gmail.com" },
   { role: "zedMan", name: "zedManName", phone: "+380681567272", email: "aleks.insortex@gmail.com" },
-  { role: "nachVur", name: "nachVurName", phone: "+380501014369", email: "0501014369p@gmail.com" },
   { role: "hr", name: "jakistName", phone: "+380667556778", email: "kea.avator@gmail.com" },
 ];
 

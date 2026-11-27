@@ -1,4 +1,5 @@
 import { mongooseConnect } from "../../lib/mongoose";
+import { publishedCategoryFilter } from "../../lib/publishedCatalog";
 import { Category } from "../../models/Category";
 import mongoose from "mongoose"; // Додаємо імпорт для перевірки ObjectId
 
@@ -37,7 +38,9 @@ async function handleGetRequest(req, res) {
     const { id } = req.query;
     if (id) {
       console.log(`Отримання категорії за ID: ${id}`);
-      const category = await Category.findById(id).populate("parent");
+      const category = await Category.findOne({
+        $and: [publishedCategoryFilter, { _id: id }],
+      }).populate("parent");
       if (!category) {
         console.log(`Категорію з ID: ${id} не знайдено`);
         return res.status(404).json({ message: "Категорія не знайдена" });
@@ -45,7 +48,7 @@ async function handleGetRequest(req, res) {
       res.status(200).json(category);
     } else {
       console.log("Отримання всіх категорій");
-      const categories = await Category.find().populate("parent");
+      const categories = await Category.find(publishedCategoryFilter).populate("parent");
       res.status(200).json(categories);
     }
   } catch (error) {

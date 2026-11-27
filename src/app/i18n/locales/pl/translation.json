@@ -111,8 +111,6 @@
   "hrName": "Atazjanowa Walentyna Aleksandrowna",
   "postach": "Menadżer ds. zaopatrzenia",
   "postachName": "Silenko Maksym Włodzimierzowicz",
-  "construktor": "p.o. Kierownika ds. projektowo-konstrukcyjnych",
-  "constructorName": "Anastasiia Hurina",
   "jakist": "Menadżer systemów jakości",
   "jakistName": "Kulikowa Olena Ołeksijewna",
   "nineAboutNapTitle": "Automatyzacja procesów produkcyjnych",
@@ -123,8 +121,5 @@
   "elevenAboutDescNap": "Produkujemy niestandardowe elementy metalowe, takie jak ramy, wsporniki i platformy, dostosowane do indywidualnych projektów.",
   "zedMan": "Kierownik działu ds. handlu zagranicznego",
 
-  "zedManName": "Ołeksandra Manujłowa",
-  "nachVur": "Kierownik produkcji",
-
-  "nachVurName": "Serhij Kleszczar"
+  "zedManName": "Ołeksandra Manujłowa"
 }

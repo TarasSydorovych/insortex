@@ -1,4 +1,5 @@
 import { mongooseConnect } from "../../lib/mongoose";
+import { publishedProductFilter } from "../../lib/publishedCatalog";
 import { Product } from "../../models/Product";
 import { languages } from "../../app/i18n/settings";
 
@@ -33,13 +34,11 @@ export default async function handler(req, res) {
 async function handleGetRequest(req, res) {
   try {
     const { categoryId } = req.query;
-    if (categoryId) {
-      const products = await Product.find({ category: categoryId });
-      res.status(200).json(products);
-    } else {
-      const products = await Product.find();
-      res.status(200).json(products);
-    }
+    const filter = categoryId
+      ? { $and: [publishedProductFilter, { category: categoryId }] }
+      : publishedProductFilter;
+    const products = await Product.find(filter);
+    res.status(200).json(products);
   } catch (error) {
     res.status(500).json({ message: "Помилка при отриманні товарів", error });
   }
